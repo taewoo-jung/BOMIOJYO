@@ -1,0 +1,895 @@
+S/W Version Information
+Model: SM-R732
+Tizen-Version: 2.3.1.5
+Build-Number: R732XXU2CPC5
+Build-Date: 2016.03.21 17:05:24
+
+Crash Information
+Process Name: hap
+PID: 3513
+Date: 2016-05-31 17:39:31+0900
+Executable File Path: /opt/usr/apps/org.example.hap/bin/hap
+Signal: 11
+      (SIGSEGV)
+      si_code: 1
+      address not mapped to object
+      si_addr = 0x120
+
+Register Information
+r0   = 0x00000000, r1   = 0x476493e8
+r2   = 0x00000000, r3   = 0x00000000
+r4   = 0x47649450, r5   = 0x446eaafc
+r6   = 0x476493e8, r7   = 0x450c4a60
+r8   = 0x00000000, r9   = 0x00000000
+r10  = 0x446ea9cc, fp   = 0x00000003
+ip   = 0x00000000, sp   = 0xbed33c70
+lr   = 0x40ab0861, pc   = 0x40aae11c
+cpsr = 0x80000030
+
+Memory Information
+MemTotal:   491012 KB
+MemFree:     30748 KB
+Buffers:     14224 KB
+Cached:     101340 KB
+VmPeak:     206104 KB
+VmSize:     170736 KB
+VmLck:           0 KB
+VmPin:           0 KB
+VmHWM:       26680 KB
+VmRSS:       26344 KB
+VmData:     103408 KB
+VmStk:         136 KB
+VmExe:          32 KB
+VmLib:       60428 KB
+VmPTE:          94 KB
+VmSwap:          0 KB
+
+Threads Information
+Threads: 8
+PID = 3513 TID = 3513
+3513 3520 3521 3525 3526 3527 3536 3557 
+
+Maps Information
+40000000 40008000 r-xp /opt/usr/apps/org.example.hap/bin/hap
+4000f000 40010000 rwxp /opt/usr/apps/org.example.hap/bin/hap
+40011000 4002e000 r-xp /lib/ld-2.13.so
+40035000 40036000 r-xp /lib/ld-2.13.so
+40036000 40037000 rwxp /lib/ld-2.13.so
+40037000 4003b000 r-xp /usr/lib/libsys-assert.so
+40043000 40044000 rwxp /usr/lib/libsys-assert.so
+40044000 4004f000 r-xp /usr/lib/evas/modules/engines/software_generic/linux-gnueabi-armv7l-1.7.99/module.so
+40057000 40058000 rwxp /usr/lib/evas/modules/engines/software_generic/linux-gnueabi-armv7l-1.7.99/module.so
+40059000 4005b000 r-xp /usr/lib/libcapi-appfw-app-common.so.0.3.2.5
+40063000 40064000 rwxp /usr/lib/libcapi-appfw-app-common.so.0.3.2.5
+40064000 40068000 r-xp /usr/lib/libcapi-appfw-application.so.0.3.2.5
+4006f000 40070000 rwxp /usr/lib/libcapi-appfw-application.so.0.3.2.5
+40070000 40078000 r-xp /usr/lib/libcapi-media-recorder.so.0.1.27
+4007f000 40080000 rwxp /usr/lib/libcapi-media-recorder.so.0.1.27
+40080000 40085000 r-xp /usr/lib/libcapi-system-device.so.0.1.0
+4008c000 4008d000 rwxp /usr/lib/libcapi-system-device.so.0.1.0
+4008d000 40092000 r-xp /usr/lib/libcapi-system-info.so.0.2.0
+40099000 4009a000 rwxp /usr/lib/libcapi-system-info.so.0.2.0
+4009a000 4009c000 r-xp /usr/lib/libdlog.so.0.0.0
+400a3000 400a4000 rwxp /usr/lib/libdlog.so.0.0.0
+400a4000 400bb000 r-xp /usr/lib/libecore.so.1.7.99
+400c3000 400c4000 rwxp /usr/lib/libecore.so.1.7.99
+400d2000 400f3000 r-xp /usr/lib/libefl-extension.so.0.1.0
+400fa000 400fb000 rwxp /usr/lib/libefl-extension.so.0.1.0
+400fb000 4013c000 r-xp /usr/lib/libeina.so.1.7.99
+40143000 40145000 rwxp /usr/lib/libeina.so.1.7.99
+40145000 4027f000 r-xp /usr/lib/libelementary.so.1.7.99
+40286000 4028e000 rwxp /usr/lib/libelementary.so.1.7.99
+40295000 40363000 r-xp /usr/lib/libevas.so.1.7.99
+4036b000 40375000 rwxp /usr/lib/libevas.so.1.7.99
+40388000 4039a000 r-xp /usr/lib/libtts.so
+403a1000 403a2000 rwxp /usr/lib/libtts.so
+403a2000 403af000 r-xp /usr/lib/libsap-client-stub-api.so.1.0.0
+403b6000 403b7000 rwxp /usr/lib/libsap-client-stub-api.so.1.0.0
+403b7000 40420000 r-xp /lib/libm-2.13.so
+40427000 40428000 r-xp /lib/libm-2.13.so
+40428000 40429000 rwxp /lib/libm-2.13.so
+40429000 40544000 r-xp /lib/libc-2.13.so
+4054c000 4054e000 r-xp /lib/libc-2.13.so
+4054e000 4054f000 rwxp /lib/libc-2.13.so
+40552000 4055d000 r-xp /lib/libunwind.so.8.0.1
+40564000 40565000 rwxp /lib/libunwind.so.8.0.1
+4058a000 4058c000 r-xp /lib/libdl-2.13.so
+40593000 40594000 r-xp /lib/libdl-2.13.so
+40594000 40595000 rwxp /lib/libdl-2.13.so
+40595000 4059d000 r-xp /lib/libgcc_s-4.6.so.1
+4059d000 4059e000 rwxp /lib/libgcc_s-4.6.so.1
+4059e000 405aa000 r-xp /usr/lib/libaul.so.0.1.0
+405b2000 405b3000 rwxp /usr/lib/libaul.so.0.1.0
+405b4000 405d6000 r-xp /usr/lib/libpkgmgr-info.so.0.0.17
+405dd000 405de000 rwxp /usr/lib/libpkgmgr-info.so.0.0.17
+405de000 405f2000 r-xp /lib/libpthread-2.13.so
+405f9000 405fa000 r-xp /lib/libpthread-2.13.so
+405fa000 405fb000 rwxp /lib/libpthread-2.13.so
+405fd000 40601000 r-xp /usr/lib/libcapi-appfw-app-control.so.0.3.2.5
+40609000 4060a000 rwxp /usr/lib/libcapi-appfw-app-control.so.0.3.2.5
+4060a000 4060f000 r-xp /usr/lib/libappcore-efl.so.1.1
+40616000 40617000 rwxp /usr/lib/libappcore-efl.so.1.1
+40617000 4061c000 r-xp /usr/lib/libappcore-common.so.1.1
+40623000 40624000 rwxp /usr/lib/libappcore-common.so.1.1
+40624000 40636000 r-xp /usr/lib/libcapi-media-camera.so.0.1.34
+4063d000 4063e000 rwxp /usr/lib/libcapi-media-camera.so.0.1.34
+4063e000 40697000 r-xp /usr/lib/libmmfcamcorder.so.0.0.0
+4069f000 406a5000 rwxp /usr/lib/libmmfcamcorder.so.0.0.0
+406a5000 40740000 r-xp /usr/lib/libgstreamer-0.10.so.0.30.0
+40748000 4074b000 rwxp /usr/lib/libgstreamer-0.10.so.0.30.0
+4074c000 40752000 r-xp /usr/lib/libcapi-base-common.so.0.1.8
+4075a000 4075b000 rwxp /usr/lib/libcapi-base-common.so.0.1.8
+4075b000 4075f000 r-xp /usr/lib/libvconf.so.0.2.45
+40766000 40767000 rwxp /usr/lib/libvconf.so.0.2.45
+40767000 40837000 r-xp /usr/lib/libglib-2.0.so.0.3200.3
+40837000 40838000 rwxp /usr/lib/libglib-2.0.so.0.3200.3
+40838000 4090b000 r-xp /usr/lib/libgio-2.0.so.0.3200.3
+40912000 40916000 rwxp /usr/lib/libgio-2.0.so.0.3200.3
+40916000 4094a000 r-xp /usr/lib/libgobject-2.0.so.0.3200.3
+40951000 40953000 rwxp /usr/lib/libgobject-2.0.so.0.3200.3
+40953000 40955000 r-xp /usr/lib/libiniparser.so.0
+4095d000 4095e000 rwxp /usr/lib/libiniparser.so.0
+4095e000 40a2a000 r-xp /usr/lib/libxml2.so.2.7.8
+40a31000 40a36000 rwxp /usr/lib/libxml2.so.2.7.8
+40a37000 40a3d000 r-xp /lib/librt-2.13.so
+40a44000 40a45000 r-xp /lib/librt-2.13.so
+40a45000 40a46000 rwxp /lib/librt-2.13.so
+40a46000 40a96000 r-xp /usr/lib/libecore_x.so.1.7.99
+40a96000 40a98000 rwxp /usr/lib/libecore_x.so.1.7.99
+40a98000 40af5000 r-xp /usr/lib/libedje.so.1.7.99
+40afd000 40aff000 rwxp /usr/lib/libedje.so.1.7.99
+40aff000 40bb7000 r-xp /usr/lib/libcairo.so.2.11200.14
+40bbe000 40bc1000 rwxp /usr/lib/libcairo.so.2.11200.14
+40bc2000 40ca3000 r-xp /usr/lib/libX11.so.6.3.0
+40caa000 40cae000 rwxp /usr/lib/libX11.so.6.3.0
+40cae000 40cb7000 r-xp /usr/lib/libXi.so.6.1.0
+40cbe000 40cbf000 rwxp /usr/lib/libXi.so.6.1.0
+40cbf000 40ce7000 r-xp /usr/lib/libfontconfig.so.1.8.0
+40ce7000 40ce8000 rwxp /usr/lib/libfontconfig.so.1.8.0
+40ce8000 40d01000 r-xp /usr/lib/libeet.so.1.7.99
+40d09000 40d0a000 rwxp /usr/lib/libeet.so.1.7.99
+40d12000 40d34000 r-xp /usr/lib/libecore_evas.so.1.7.99
+40d3b000 40d3d000 rwxp /usr/lib/libecore_evas.so.1.7.99
+40d3d000 40d42000 r-xp /usr/lib/libecore_file.so.1.7.99
+40d49000 40d4a000 rwxp /usr/lib/libecore_file.so.1.7.99
+40d4a000 40d5b000 r-xp /usr/lib/libecore_input.so.1.7.99
+40d62000 40d63000 rwxp /usr/lib/libecore_input.so.1.7.99
+40d63000 40d6c000 r-xp /usr/lib/libedbus.so.1.7.99
+40d73000 40d74000 rwxp /usr/lib/libedbus.so.1.7.99
+40d74000 40d9e000 r-xp /usr/lib/libdbus-1.so.3.8.12
+40da6000 40da7000 rwxp /usr/lib/libdbus-1.so.3.8.12
+40da7000 40dc1000 r-xp /usr/lib/libecore_con.so.1.7.99
+40dc8000 40dc9000 rwxp /usr/lib/libecore_con.so.1.7.99
+40dca000 40ddd000 r-xp /usr/lib/libfribidi.so.0.3.1
+40de4000 40de5000 rwxp /usr/lib/libfribidi.so.0.3.1
+40de5000 40e22000 r-xp /usr/lib/libharfbuzz.so.0.940.0
+40e29000 40e2a000 rwxp /usr/lib/libharfbuzz.so.0.940.0
+40e2b000 40e81000 r-xp /usr/lib/libfreetype.so.6.11.3
+40e89000 40e8d000 rwxp /usr/lib/libfreetype.so.6.11.3
+40e8d000 40ee3000 r-xp /usr/lib/libpixman-1.so.0.28.2
+40eeb000 40ef0000 rwxp /usr/lib/libpixman-1.so.0.28.2
+40ef0000 40ef8000 r-xp /usr/lib/libsap_client.so.0.0.0
+40eff000 40f00000 rwxp /usr/lib/libsap_client.so.0.0.0
+40f00000 40f03000 r-xp /usr/lib/libbundle.so.0.1.22
+40f0a000 40f0b000 rwxp /usr/lib/libbundle.so.0.1.22
+40f0b000 40f22000 r-xp /usr/lib/libdbus-glib-1.so.2.2.2
+40f29000 40f2a000 rwxp /usr/lib/libdbus-glib-1.so.2.2.2
+40f2a000 40f2f000 r-xp /usr/lib/libxdgmime.so.1.1.0
+40f36000 40f37000 rwxp /usr/lib/libxdgmime.so.1.1.0
+40f37000 40f73000 r-xp /usr/lib/libsystemd.so.0.4.0
+40f7a000 40f7b000 r-xp /usr/lib/libsystemd.so.0.4.0
+40f7b000 40f7c000 rwxp /usr/lib/libsystemd.so.0.4.0
+40f7c000 40f7f000 r-xp /usr/lib/libproc-stat.so.0.2.86
+40f86000 40f87000 rwxp /usr/lib/libproc-stat.so.0.2.86
+40f87000 40f9d000 r-xp /usr/lib/libpkgmgr_parser.so.0.1.0
+40fa4000 40fa5000 rwxp /usr/lib/libpkgmgr_parser.so.0.1.0
+40fa5000 4101a000 r-xp /usr/lib/libsqlite3.so.0.8.6
+41021000 41024000 rwxp /usr/lib/libsqlite3.so.0.8.6
+41024000 4102a000 r-xp /usr/lib/libappsvc.so.0.1.0
+41031000 41032000 rwxp /usr/lib/libappsvc.so.0.1.0
+41032000 41038000 r-xp /usr/lib/libecore_imf.so.1.7.99
+4103f000 41040000 rwxp /usr/lib/libecore_imf.so.1.7.99
+41040000 41045000 r-xp /usr/lib/libcapi-media-tool.so.0.1.5
+4104c000 4104d000 rwxp /usr/lib/libcapi-media-tool.so.0.1.5
+4104d000 41054000 r-xp /usr/lib/libtbm.so.1.0.0
+4105b000 4105c000 rwxp /usr/lib/libtbm.so.1.0.0
+4105c000 41069000 r-xp /usr/lib/libgstinterfaces-0.10.so.0.25.0
+41071000 41072000 rwxp /usr/lib/libgstinterfaces-0.10.so.0.25.0
+41072000 4107b000 r-xp /usr/lib/libgstapp-0.10.so.0.25.0
+41082000 41083000 rwxp /usr/lib/libgstapp-0.10.so.0.25.0
+41083000 410a4000 r-xp /usr/lib/libexif.so.12.3.3
+410ab000 410b7000 rwxp /usr/lib/libexif.so.12.3.3
+410b7000 410cd000 r-xp /usr/lib/libmmfsound.so.0.1.0
+410d5000 410d6000 rwxp /usr/lib/libmmfsound.so.0.1.0
+410df000 410e4000 r-xp /usr/lib/libmmfsession.so.0.0.0
+410eb000 410ec000 rwxp /usr/lib/libmmfsession.so.0.0.0
+410ec000 41124000 r-xp /usr/lib/libpulse.so.0.16.2
+41124000 41125000 rwxp /usr/lib/libpulse.so.0.16.2
+41125000 41127000 r-xp /usr/lib/libcamsrcjpegenc.so.0.0.0
+4112e000 4112f000 rwxp /usr/lib/libcamsrcjpegenc.so.0.0.0
+4112f000 41134000 r-xp /usr/lib/libmmutil_imgp.so.0.0.0
+4113b000 4113c000 rwxp /usr/lib/libmmutil_imgp.so.0.0.0
+4113c000 41155000 r-xp /usr/lib/libprivacy-manager-client.so.0.0.7
+4115d000 4115e000 rwxp /usr/lib/libprivacy-manager-client.so.0.0.7
+4115e000 41168000 r-xp /usr/lib/libaudio-session-mgr.so.0.0.0
+41170000 41171000 rwxp /usr/lib/libaudio-session-mgr.so.0.0.0
+41175000 4117c000 r-xp /usr/lib/libmmfcommon.so.0.0.0
+41183000 41184000 rwxp /usr/lib/libmmfcommon.so.0.0.0
+41184000 411b5000 r-xp /usr/lib/libmdm.so.1.1.85
+411bc000 411bd000 rwxp /usr/lib/libmdm.so.1.1.85
+411bd000 411bf000 r-xp /usr/lib/libgmodule-2.0.so.0.3200.3
+411c6000 411c7000 rwxp /usr/lib/libgmodule-2.0.so.0.3200.3
+411c7000 411c8000 r-xp /usr/lib/libgthread-2.0.so.0.3200.3
+411cf000 411d0000 rwxp /usr/lib/libgthread-2.0.so.0.3200.3
+411d0000 411d5000 r-xp /usr/lib/libffi.so.5.0.10
+411dc000 411dd000 rwxp /usr/lib/libffi.so.5.0.10
+411de000 411f4000 r-xp /lib/libz.so.1.2.5
+411fb000 411fc000 rwxp /lib/libz.so.1.2.5
+411fc000 4120c000 r-xp /lib/libresolv-2.13.so
+4120c000 4120d000 r-xp /lib/libresolv-2.13.so
+4120d000 4120e000 rwxp /lib/libresolv-2.13.so
+41210000 41217000 r-xp /usr/lib/libXcursor.so.1.0.2
+4121e000 4121f000 rwxp /usr/lib/libXcursor.so.1.0.2
+4121f000 41221000 r-xp /usr/lib/libXdamage.so.1.1.0
+41228000 41229000 rwxp /usr/lib/libXdamage.so.1.1.0
+41229000 4122b000 r-xp /usr/lib/libXcomposite.so.1.0.0
+41232000 41233000 rwxp /usr/lib/libXcomposite.so.1.0.0
+41234000 41236000 r-xp /usr/lib/libXgesture.so.7.0.0
+4123d000 4123e000 rwxp /usr/lib/libXgesture.so.7.0.0
+4123e000 41241000 r-xp /usr/lib/libXfixes.so.3.1.0
+41248000 41249000 rwxp /usr/lib/libXfixes.so.3.1.0
+41249000 4124a000 r-xp /usr/lib/libXinerama.so.1.0.0
+41252000 41253000 rwxp /usr/lib/libXinerama.so.1.0.0
+41253000 41259000 r-xp /usr/lib/libXrandr.so.2.2.0
+41260000 41261000 rwxp /usr/lib/libXrandr.so.2.2.0
+41261000 41267000 r-xp /usr/lib/libXrender.so.1.3.0
+4126e000 4126f000 rwxp /usr/lib/libXrender.so.1.3.0
+4126f000 41273000 r-xp /usr/lib/libXtst.so.6.1.0
+4127a000 4127b000 rwxp /usr/lib/libXtst.so.6.1.0
+4127c000 41286000 r-xp /usr/lib/libXext.so.6.4.0
+4128e000 4128f000 rwxp /usr/lib/libXext.so.6.4.0
+4128f000 41296000 r-xp /usr/lib/libembryo.so.1.7.99
+4129d000 4129e000 rwxp /usr/lib/libembryo.so.1.7.99
+4129e000 412b5000 r-xp /usr/lib/liblua-5.1.so
+412bd000 412be000 rwxp /usr/lib/liblua-5.1.so
+412be000 412bf000 r-xp /usr/lib/libecore_imf_evas.so.1.7.99
+412c6000 412c7000 rwxp /usr/lib/libecore_imf_evas.so.1.7.99
+412c7000 412d5000 r-xp /usr/lib/libGLESv2.so.2.0
+412dd000 412de000 rwxp /usr/lib/libGLESv2.so.2.0
+412df000 412f7000 r-xp /usr/lib/libpng12.so.0.50.0
+412fe000 412ff000 rwxp /usr/lib/libpng12.so.0.50.0
+412ff000 41300000 r-xp /usr/lib/libxcb-shm.so.0.0.0
+41308000 41309000 rwxp /usr/lib/libxcb-shm.so.0.0.0
+41309000 4130f000 r-xp /usr/lib/libxcb-render.so.0.0.0
+41316000 41317000 rwxp /usr/lib/libxcb-render.so.0.0.0
+41317000 4132a000 r-xp /usr/lib/libxcb.so.1.1.0
+41332000 41333000 rwxp /usr/lib/libxcb.so.1.1.0
+41333000 41336000 r-xp /usr/lib/libEGL.so.1.4
+4133d000 4133e000 rwxp /usr/lib/libEGL.so.1.4
+4133f000 41355000 r-xp /lib/libexpat.so.1.5.2
+4135d000 4135f000 rwxp /lib/libexpat.so.1.5.2
+4135f000 41382000 r-xp /usr/lib/libjpeg.so.8.0.2
+41389000 4138a000 rwxp /usr/lib/libjpeg.so.8.0.2
+4139a000 4139f000 r-xp /usr/lib/libecore_fb.so.1.7.99
+413a6000 413a8000 rwxp /usr/lib/libecore_fb.so.1.7.99
+413a8000 413ac000 r-xp /usr/lib/libecore_ipc.so.1.7.99
+413b4000 413b5000 rwxp /usr/lib/libecore_ipc.so.1.7.99
+413b5000 413b8000 r-xp /usr/lib/libecore_input_evas.so.1.7.99
+413bf000 413c0000 rwxp /usr/lib/libecore_input_evas.so.1.7.99
+413c1000 41405000 r-xp /usr/lib/libcurl.so.4.3.0
+4140c000 4140e000 rwxp /usr/lib/libcurl.so.4.3.0
+4140e000 41426000 r-xp /usr/lib/liblzma.so.5.0.3
+4142d000 4142e000 rwxp /usr/lib/liblzma.so.5.0.3
+4142e000 414aa000 r-xp /usr/lib/libgcrypt.so.20.0.3
+414b1000 414b6000 rwxp /usr/lib/libgcrypt.so.20.0.3
+414b6000 414b8000 r-xp /usr/lib/libSLP-db-util.so.0.1.0
+414c0000 414c1000 rwxp /usr/lib/libSLP-db-util.so.0.1.0
+414c1000 414c3000 r-xp /usr/lib/journal/libjournal.so.0.1.0
+414ca000 414cb000 rwxp /usr/lib/journal/libjournal.so.0.1.0
+414cc000 414d4000 r-xp /usr/lib/libdrm.so.2.4.0
+414db000 414dc000 rwxp /usr/lib/libdrm.so.2.4.0
+414dc000 4151d000 r-xp /usr/lib/libgstbase-0.10.so.0.30.0
+41525000 41526000 rwxp /usr/lib/libgstbase-0.10.so.0.30.0
+41526000 4152a000 r-xp /usr/lib/libmmfsoundcommon.so.0.0.0
+41532000 41533000 rwxp /usr/lib/libmmfsoundcommon.so.0.0.0
+41533000 41549000 r-xp /usr/lib/libavsysaudio.so.0.0.1
+41551000 41552000 rwxp /usr/lib/libavsysaudio.so.0.0.1
+41552000 41557000 r-xp /usr/lib/libascenario-0.2.so.0.0.0
+4155e000 4155f000 rwxp /usr/lib/libascenario-0.2.so.0.0.0
+41560000 41563000 r-xp /usr/lib/libpulse-simple.so.0.0.4
+4156a000 4156b000 rwxp /usr/lib/libpulse-simple.so.0.0.4
+4156b000 415cc000 r-xp /usr/lib/libasound.so.2.0.0
+415d3000 415d6000 rwxp /usr/lib/libasound.so.2.0.0
+415d6000 415d9000 r-xp /usr/lib/libsyspopup_caller.so.0.1.0
+415e0000 415e1000 rwxp /usr/lib/libsyspopup_caller.so.0.1.0
+415e1000 415ee000 r-xp /usr/lib/libail.so.0.1.0
+415f6000 415f7000 rwxp /usr/lib/libail.so.0.1.0
+415f7000 41734000 r-xp /usr/lib/libicui18n.so.51.1
+4173c000 41744000 rwxp /usr/lib/libicui18n.so.51.1
+41745000 41829000 r-xp /usr/lib/libicuuc.so.51.1
+41830000 4183a000 rwxp /usr/lib/libicuuc.so.51.1
+4183e000 42dbd000 r-xp /usr/lib/libicudata.so.51.1
+42dc4000 42dc5000 rwxp /usr/lib/libicudata.so.51.1
+42dc5000 42dd5000 r-xp /usr/lib/lib_SamsungRec_TizenV04014.so
+42dd5000 42dd9000 rwxp /usr/lib/lib_SamsungRec_TizenV04014.so
+42df6000 42dfe000 r-xp /usr/lib/lib_DNSe_NRSS_ver225.so
+42e05000 42e06000 rwxp /usr/lib/lib_DNSe_NRSS_ver225.so
+42e0d000 42e12000 r-xp /usr/lib/libjson.so.0.0.1
+42e19000 42e1a000 rwxp /usr/lib/libjson.so.0.0.1
+42e1b000 42e63000 r-xp /usr/lib/pulseaudio/libpulsecommon-4.0.so
+42e63000 42e64000 rwxp /usr/lib/pulseaudio/libpulsecommon-4.0.so
+42e64000 42ea7000 r-xp /usr/lib/libsndfile.so.1.0.25
+42eae000 42eb0000 rwxp /usr/lib/libsndfile.so.1.0.25
+42eb4000 42ee1000 r-xp /usr/lib/libsecurity-server-client.so.1.0.1
+42ee8000 42ee9000 rwxp /usr/lib/libsecurity-server-client.so.1.0.1
+42ee9000 42f36000 r-xp /usr/lib/libssl.so.1.0.0
+42f3d000 42f42000 rwxp /usr/lib/libssl.so.1.0.0
+42f42000 430ea000 r-xp /usr/lib/libcrypto.so.1.0.0
+430ea000 430ff000 rwxp /usr/lib/libcrypto.so.1.0.0
+43104000 43107000 r-xp /usr/lib/libsmack.so.1.0.0
+4310e000 4310f000 rwxp /usr/lib/libsmack.so.1.0.0
+4310f000 43115000 r-xp /usr/lib/libcapi-appfw-app-manager.so.0.2.8
+4311c000 4311d000 rwxp /usr/lib/libcapi-appfw-app-manager.so.0.2.8
+4311d000 43125000 r-xp /usr/lib/libcapi-appfw-package-manager.so.0.0.59
+4312c000 4312d000 rwxp /usr/lib/libcapi-appfw-package-manager.so.0.0.59
+4312d000 43132000 r-xp /usr/lib/libcsc-feature.so.0.0.0
+43139000 4313a000 rwxp /usr/lib/libcsc-feature.so.0.0.0
+4313a000 431ce000 r-xp /usr/lib/libstdc++.so.6.0.16
+431d6000 431d9000 r-xp /usr/lib/libstdc++.so.6.0.16
+431d9000 431db000 rwxp /usr/lib/libstdc++.so.6.0.16
+431e2000 431ea000 r-xp /usr/lib/libmdm-common.so.1.0.89
+431ea000 431eb000 rwxp /usr/lib/libmdm-common.so.1.0.89
+431eb000 431ed000 r-xp /usr/lib/libXau.so.6.0.0
+431f4000 431f5000 rwxp /usr/lib/libXau.so.6.0.0
+431f5000 431fe000 r-xp /usr/lib/libcares.so.2.1.0
+43206000 43207000 rwxp /usr/lib/libcares.so.2.1.0
+43208000 43236000 r-xp /usr/lib/libidn.so.11.5.44
+4323d000 4323e000 rwxp /usr/lib/libidn.so.11.5.44
+4323e000 43249000 r-xp /usr/lib/libgpg-error.so.0.15.0
+43250000 43251000 rwxp /usr/lib/libgpg-error.so.0.15.0
+43251000 43254000 r-xp /usr/lib/libcompress.so.0.2.0
+4325b000 4325c000 rwxp /usr/lib/libcompress.so.0.2.0
+4325d000 4327f000 r-xp /usr/lib/libvorbis.so.0.4.3
+43286000 43287000 rwxp /usr/lib/libvorbis.so.0.4.3
+43287000 4328b000 r-xp /usr/lib/libogg.so.0.7.1
+43292000 43293000 rwxp /usr/lib/libogg.so.0.7.1
+43293000 432b0000 r-xp /usr/lib/libsecurity-server-commons.so.1.0.0
+432b8000 432b9000 rwxp /usr/lib/libsecurity-server-commons.so.1.0.0
+432b9000 432d5000 r-xp /usr/lib/libpkgmgr-client.so.0.1.68
+432dd000 432de000 rwxp /usr/lib/libpkgmgr-client.so.0.1.68
+432df000 432e1000 r-xp /usr/lib/libiri.so
+432e8000 432e9000 rwxp /usr/lib/libiri.so
+432e9000 432ec000 r-xp /lib/libcap.so.2.21
+432f3000 432f4000 rwxp /lib/libcap.so.2.21
+432f4000 432fb000 r-xp /lib/libcrypt-2.13.so
+43302000 43303000 r-xp /lib/libcrypt-2.13.so
+43303000 43304000 rwxp /lib/libcrypt-2.13.so
+4332b000 43332000 r-xp /usr/lib/libpkgmgr_installer_client.so.0.1.0
+4333a000 4333b000 rwxp /usr/lib/libpkgmgr_installer_client.so.0.1.0
+4333b000 4333d000 r-xp /usr/lib/libpkgmgr_installer_status_broadcast_server.so.0.1.0
+43344000 43345000 rwxp /usr/lib/libpkgmgr_installer_status_broadcast_server.so.0.1.0
+43346000 4334d000 r-xp /usr/lib/libminizip.so.1.0.0
+43354000 43355000 rwxp /usr/lib/libminizip.so.1.0.0
+43355000 43358000 r-xp /lib/libattr.so.1.1.0
+4335f000 43360000 rwxp /lib/libattr.so.1.1.0
+43467000 43531000 r-xp /usr/lib/libCOREGL.so.4.0
+43539000 4353b000 rwxp /usr/lib/libCOREGL.so.4.0
+43543000 43567000 r-xp /usr/lib/ecore/immodules/libisf-imf-module.so
+4356e000 43570000 rwxp /usr/lib/ecore/immodules/libisf-imf-module.so
+43570000 4363f000 r-xp /usr/lib/libscim-1.0.so.8.2.3
+43646000 43655000 rwxp /usr/lib/libscim-1.0.so.8.2.3
+43655000 4365f000 r-xp /lib/libnss_files-2.13.so
+43666000 43667000 r-xp /lib/libnss_files-2.13.so
+43667000 43668000 rwxp /lib/libnss_files-2.13.so
+43668000 43868000 r-xp /usr/share/locale/locale-archive
+43868000 43999000 r-xp /usr/share/locale/locale-archive
+43999000 43a10000 r-xp /usr/lib/evas/modules/engines/gl_x11/linux-gnueabi-armv7l-1.7.99/module.so
+43a18000 43a1a000 rwxp /usr/lib/evas/modules/engines/gl_x11/linux-gnueabi-armv7l-1.7.99/module.so
+43a20000 43b68000 r-xp /usr/lib/egl/libMali.so
+43b68000 43b6d000 rwxp /usr/lib/egl/libMali.so
+43b6e000 43b71000 rwxp [stack:3521]
+43b71000 43b75000 r-xp /usr/lib/bufmgr/libtbm_exynos4412.so.0.0.0
+43b7c000 43b7d000 rwxp /usr/lib/bufmgr/libtbm_exynos4412.so.0.0.0
+43b7d000 43b81000 rwxs /dev/mali
+43b82000 43b84000 r-xp /usr/lib/libdri2.so.0.0.0
+43b8b000 43b8c000 rwxp /usr/lib/libdri2.so.0.0.0
+43b8c000 43b8f000 r-xp /usr/lib/libnative-buffer.so.0.1.0
+43b96000 43b97000 rwxp /usr/lib/libnative-buffer.so.0.1.0
+43b98000 44397000 rwxp [stack:3520]
+44397000 4439f000 rwxs /dev/mali
+4439f000 443a7000 rwxs /dev/mali
+443a7000 443b7000 rwxs /dev/mali
+444bb000 444bf000 rwxs /dev/mali
+444bf000 444c3000 rwxs /dev/mali
+444c3000 444cb000 rwxs /dev/mali
+444cb000 444d3000 rwxs /dev/mali
+444d3000 444d5000 r-xp /usr/share/locale/ko_KR/LC_MESSAGES/elementary.mo
+444d5000 44674000 r-xs /usr/share/elementary/themes/tizen-2.3-wearable-circle-HVGA.edj
+44774000 4478b000 r-xp /usr/lib/edje/modules/elm/linux-gnueabi-armv7l-1.0.0/module.so
+44793000 44798000 rwxp /usr/lib/edje/modules/elm/linux-gnueabi-armv7l-1.0.0/module.so
+44798000 4479a000 r-xp /usr/lib/evas/modules/loaders/png/linux-gnueabi-armv7l-1.7.99/module.so
+447a1000 447a2000 rwxp /usr/lib/evas/modules/loaders/png/linux-gnueabi-armv7l-1.7.99/module.so
+44fa2000 44fa9000 r-xs /usr/lib/gconv/gconv-modules.cache
+44fa9000 44fac000 r-xs /opt/var/cache/fontconfig/3830d5c3ddfd5cd38a049b759396e72e-le32d8.cache-5
+44fac000 44fb0000 r-xs /opt/var/cache/fontconfig/a307fb9815d691addd7f142e617ee37c-le32d8.cache-5
+44fb0000 44fbf000 r-xs /opt/var/cache/fontconfig/cdc77cde135ce87b641818a103cc9edb-le32d8.cache-5
+44fbf000 44fc0000 r-xp /usr/lib/evas/modules/loaders/eet/linux-gnueabi-armv7l-1.7.99/module.so
+44fc7000 44fc8000 rwxp /usr/lib/evas/modules/loaders/eet/linux-gnueabi-armv7l-1.7.99/module.so
+44fc8000 44fcc000 rwxs /dev/mali
+44fcc000 44fdc000 rwxs /dev/mali
+44fdc000 45000000 rwxs /dev/mali
+45180000 4597f000 rwxp [stack:3536]
+4597f000 459ab000 rwxs /dev/mali
+459eb000 459ef000 rwxs /dev/mali
+459ef000 45a13000 rwxs /dev/mali
+45a13000 45a17000 rwxs /dev/mali
+45a17000 45a3b000 rwxs /dev/mali
+45a3b000 45a3f000 rwxs /dev/mali
+45a53000 45a54000 r-xp /usr/lib/edje/modules/feedback/linux-gnueabi-armv7l-1.0.0/module.so
+45a5b000 45a5c000 rwxp /usr/lib/edje/modules/feedback/linux-gnueabi-armv7l-1.0.0/module.so
+45a5c000 45a5d000 r-xp /usr/lib/gstreamer-0.10/libgstapp.so
+45a64000 45a65000 rwxp /usr/lib/gstreamer-0.10/libgstapp.so
+45a65000 45a68000 r-xp /usr/lib/gstreamer-0.10/libgstavsysaudiosrc.so
+45a6f000 45a70000 rwxp /usr/lib/gstreamer-0.10/libgstavsysaudiosrc.so
+45a74000 45b00000 r-xp /usr/share/fonts/BreezeSans-RegularCondensed.ttf
+45b00000 45b8b000 r-xp /usr/share/fonts/BreezeSans-MediumCondensed.ttf
+45b8c000 4638b000 rwxp [stack:3525]
+4638c000 46b8b000 rwxp [stack:3526]
+46b8c000 4738b000 rwxp [stack:3527]
+4738b000 4740d000 rwxs /dev/dri/card0
+4740d000 4750d000 rwxs /dev/mali
+4750d000 47514000 r-xp /usr/lib/libfeedback.so.0.1.4
+4751c000 4751d000 rwxp /usr/lib/libfeedback.so.0.1.4
+4751d000 4751e000 r-xp /usr/lib/libmmfkeysound.so.0.0.0
+47525000 47526000 rwxp /usr/lib/libmmfkeysound.so.0.0.0
+47526000 47528000 r-xp /usr/lib/libcapi-media-wav-player.so.0.1.10
+4752f000 47530000 rwxp /usr/lib/libcapi-media-wav-player.so.0.1.10
+47530000 4753a000 r-xp /usr/lib/libcapi-media-sound-manager.so.0.1.49
+47541000 47542000 rwxp /usr/lib/libcapi-media-sound-manager.so.0.1.49
+47542000 47576000 r-xp /usr/lib/gstreamer-0.10/libgstcoreelements.so
+4757d000 4757f000 rwxp /usr/lib/gstreamer-0.10/libgstcoreelements.so
+4757f000 4759f000 r-xp /usr/lib/gstreamer-0.10/libgstomx.so
+475a6000 475a7000 rwxp /usr/lib/gstreamer-0.10/libgstomx.so
+475a7000 475b3000 r-xp /usr/lib/gstreamer-0.10/libgstencodebin.so
+475ba000 475bb000 rwxp /usr/lib/gstreamer-0.10/libgstencodebin.so
+475bb000 475c0000 r-xp /usr/lib/gstreamer-0.10/libgstvolume.so
+475c7000 475c8000 rwxp /usr/lib/gstreamer-0.10/libgstvolume.so
+475d0000 475e8000 r-xp /usr/lib/libgstpbutils-0.10.so.0.25.0
+475ef000 475f1000 rwxp /usr/lib/libgstpbutils-0.10.so.0.25.0
+475f1000 475f7000 r-xp /usr/lib/gstreamer-0.10/libgstsavsencaac.so
+475fe000 475ff000 rwxp /usr/lib/gstreamer-0.10/libgstsavsencaac.so
+47700000 4785e000 r-xp /usr/lib/gstreamer-0.10/libgstffmpeg.so
+47865000 4786e000 rwxp /usr/lib/gstreamer-0.10/libgstffmpeg.so
+47946000 4796f000 r-xp /usr/lib/libgstaudio-0.10.so.0.25.0
+47976000 47978000 rwxp /usr/lib/libgstaudio-0.10.so.0.25.0
+47978000 4797d000 r-xp /usr/lib/gstreamer-0.10/libgstsavsencamrnb.so
+47984000 47985000 rwxp /usr/lib/gstreamer-0.10/libgstsavsencamrnb.so
+4798d000 479a5000 r-xp /usr/lib/libgstcontroller-0.10.so.0.30.0
+479ac000 479ad000 rwxp /usr/lib/libgstcontroller-0.10.so.0.30.0
+479ad000 479b2000 r-xp /usr/lib/gstreamer-0.10/libgstsecrecord.so
+479b9000 479ba000 rwxp /usr/lib/gstreamer-0.10/libgstsecrecord.so
+479c3000 479fb000 r-xp /usr/lib/libsaac.so
+479fb000 479fc000 rwxp /usr/lib/libsaac.so
+479fc000 47a02000 r-xp /usr/lib/libscmn.so
+47a09000 47a0a000 rwxp /usr/lib/libscmn.so
+47a0a000 47a1a000 r-xp /usr/lib/gstreamer-0.10/libgstalsa.so
+47a21000 47a22000 rwxp /usr/lib/gstreamer-0.10/libgstalsa.so
+47a22000 47a2d000 r-xp /usr/lib/gstreamer-0.10/libgstaudioconvert.so
+47a35000 47a36000 rwxp /usr/lib/gstreamer-0.10/libgstaudioconvert.so
+47a37000 47a6f000 r-xp /usr/lib/libsamrnb.so
+47a76000 47a90000 rwxp /usr/lib/libsamrnb.so
+47a90000 47aaa000 r-xp /usr/lib/gstreamer-0.10/libgstpulse.so
+47ab2000 47ab3000 rwxp /usr/lib/gstreamer-0.10/libgstpulse.so
+47ab3000 47ab6000 r-xp /usr/lib/gstreamer-0.10/libgstwavenc.so
+47abd000 47abe000 rwxp /usr/lib/gstreamer-0.10/libgstwavenc.so
+4bec1000 4c6c0000 rwxp [stack:3557]
+4c6c0000 4c6c3000 r-xp /usr/lib/evas/modules/engines/buffer/linux-gnueabi-armv7l-1.7.99/module.so
+4c6ca000 4c6cb000 rwxp /usr/lib/evas/modules/engines/buffer/linux-gnueabi-armv7l-1.7.99/module.so
+4c6cb000 4c6cc000 r-xp /usr/lib/evas/modules/savers/jpeg/linux-gnueabi-armv7l-1.7.99/module.so
+4c6d3000 4c6d4000 rwxp /usr/lib/evas/modules/savers/jpeg/linux-gnueabi-armv7l-1.7.99/module.so
+4c6d4000 4c7fa000 r-xp /usr/share/fallback_fonts/BreezeSansKorean-RegularCondensed.ttf
+4c8fa000 4c93a000 rwxs /dev/mali
+bed14000 bed35000 rwxp [stack]
+End of Maps Information
+
+Callstack Information (PID:3513)
+Call Stack Count: 13
+ 0: (0x40aae11c) [/usr/lib/libedje.so.1] + 0x1611c
+ 1: (0x40ab0861) [/usr/lib/libedje.so.1] + 0x18861
+ 2: (0x40ab2a37) [/usr/lib/libedje.so.1] + 0x1aa37
+ 3: (0x402cab2f) [/usr/lib/libevas.so.1] + 0x35b2f
+ 4: (0x402f02e3) [/usr/lib/libevas.so.1] + 0x5b2e3
+ 5: (0x40d24071) [/usr/lib/libecore_evas.so.1] + 0x12071
+ 6: (0x40d216ed) [/usr/lib/libecore_evas.so.1] + 0xf6ed
+ 7: (0x400aef25) [/usr/lib/libecore.so.1] + 0xaf25
+ 8: (0x400b034f) [/usr/lib/libecore.so.1] + 0xc34f
+ 9: ecore_main_loop_begin + 0x30 (0x400b08b9) [/usr/lib/libecore.so.1] + 0xc8b9
+10: appcore_efl_main + 0x20e (0x4060d503) [/usr/lib/libappcore-efl.so.1] + 0x3503
+11: ui_app_main + 0xb0 (0x40066421) [/usr/lib/libcapi-appfw-application.so.0] + 0x2421
+12: app_run + 0xea (0x40002ef7) [/opt/usr/apps/org.example.hap/bin/hap] + 0x2ef7
+End of Call Stack
+
+Package Information
+Package Name: org.example.hap
+Package ID : org.example.hap
+Version: 1.0.0
+Package Type: rpm
+App Name: hap
+App ID: org.example.hap
+Type: capp
+Categories: 
+
+Latest Debug Message Information
+--------- beginning of /dev/log_main
+E/TIZEN_N_RECORDER( 3513): recorder.c: __convert_recorder_error_code(193) > [recorder_set_filename] ERROR_NONE(0x00000000) : core frameworks error code(0x00000000)
+05-31 17:38:48.035+0900 E/TIZEN_N_RECORDER( 3513): recorder.c: __convert_recorder_error_code(193) > [file-format] ERROR_NONE(0x00000000) : core frameworks error code(0x00000000)
+05-31 17:38:48.040+0900 E/TIZEN_N_RECORDER( 3513): recorder.c: __convert_recorder_error_code(193) > [audio-encoder] ERROR_NONE(0x00000000) : core frameworks error code(0x00000000)
+05-31 17:38:48.085+0900 I/PRIVACY-MANAGER-CLIENT( 3513): PrivacyChecker.cpp: initialize(168) > Got lock. Starting initialize
+05-31 17:38:48.085+0900 I/PRIVACY-MANAGER-CLIENT( 3513): PrivacyChecker.cpp: runSignalListenerThread(194) > Running g main loop for signal
+05-31 17:38:48.085+0900 I/PRIVACY-MANAGER-CLIENT( 3513): PrivacyChecker.cpp: initializeDbus(220) > Starting initialize
+05-31 17:38:48.115+0900 I/PRIVACY-MANAGER-CLIENT( 3513): PrivacyChecker.cpp: initializeDbus(235) > Initialized
+05-31 17:38:48.115+0900 I/PRIVACY-MANAGER-CLIENT( 3513): PrivacyChecker.cpp: initialize(186) > Initialized
+05-31 17:38:48.730+0900 E/TIZEN_N_RECORDER( 3513): recorder.c: __convert_recorder_error_code(193) > [recorder_start] ERROR_NONE(0x00000000) : core frameworks error code(0x00000000)
+05-31 17:38:48.730+0900 E/EFL     ( 3513): <3513> elm_main.c:1268 elm_object_disabled_set() safety check failed: obj == NULL
+05-31 17:38:48.730+0900 E/EFL     ( 3513): <3513> elm_main.c:1268 elm_object_disabled_set() safety check failed: obj == NULL
+05-31 17:38:48.735+0900 I/aa      ( 3513): chk = Off
+05-31 17:38:48.750+0900 W/AUL_AMD (  498): amd_key.c: _key_ungrab(254) > fail(-1) to ungrab key(XF86Stop)
+05-31 17:38:48.750+0900 W/AUL_AMD (  498): amd_launch.c: __grab_timeout_handler(1369) > back key ungrab error
+05-31 17:38:48.760+0900 W/WATCH_CORE(  752): appcore-watch.c: __signal_context_handler(1192) > _signal_context_handler: type: 0, state: 3
+05-31 17:38:48.760+0900 I/WATCH_CORE(  752): appcore-watch.c: __signal_context_handler(1209) > Call the time_tick_cb
+05-31 17:38:48.760+0900 I/CAPI_WATCH_APPLICATION(  752): watch_app_main.c: _watch_core_time_tick(306) > _watch_core_time_tick
+05-31 17:38:48.760+0900 E/watchface-loader(  752): watchface-loader.cpp: OnAppTimeTick(740) > 
+05-31 17:38:48.760+0900 I/watchface-loader(  752): watchface-loader.cpp: OnAppTimeTick(752) > set force update!!
+05-31 17:38:48.790+0900 W/WATCH_CORE(  752): appcore-watch.c: __signal_lcd_status_handler(1130) > signal_lcd_status_signal: LCDOff
+05-31 17:38:48.790+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: OnReceiveDisplayChanged(977) > [0;32mINFO: LCDOff receive data : 1075153676[0;m
+05-31 17:38:48.790+0900 W/W_HOME  (  722): dbus.c: _dbus_message_recv_cb(204) > LCD off
+05-31 17:38:48.790+0900 W/W_HOME  (  722): gesture.c: _manual_render_disable_timer_del(151) > timer del
+05-31 17:38:48.790+0900 W/W_HOME  (  722): gesture.c: _manual_render_enable(133) > 1
+05-31 17:38:48.790+0900 W/W_HOME  (  722): event_manager.c: _lcd_off_cb(699) > lcd state: 0
+05-31 17:38:48.790+0900 W/W_HOME  (  722): event_manager.c: _state_control(194) > control:4, app_state:2 win_state:1(0) pm_state:0 home_visible:1 clock_visible:0 tutorial_state:0 editing : 0, home_clocklist:0, addviewer:0 scrolling : 0, powersaving : 0, apptray state : 1, apptray visibility : 0, apptray edit visibility : 0
+05-31 17:38:48.790+0900 W/STARTER (  697): clock-mgr.c: _on_lcd_signal_receive_cb(1542) > [_on_lcd_signal_receive_cb:1542] _on_lcd_signal_receive_cb, 1542, Pre LCD off by [gesture]
+05-31 17:38:48.790+0900 W/STARTER (  697): clock-mgr.c: _pre_lcd_off(1326) > [_pre_lcd_off:1326] Will LCD OFF as wake_up_setting[1]
+05-31 17:38:48.790+0900 E/STARTER (  697): scontext_util.c: scontext_util_handle_lock_state(64) > [scontext_util_handle_lock_state:64] wear state[0],bPossible [0]
+05-31 17:38:48.790+0900 W/STARTER (  697): clock-mgr.c: _check_reserved_popup_status(256) > [_check_reserved_popup_status:256] Current reserved apps status : 0
+05-31 17:38:48.790+0900 W/STARTER (  697): clock-mgr.c: _check_reserved_apps_status(292) > [_check_reserved_apps_status:292] Current reserved apps status : 0
+05-31 17:38:48.795+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: OnReceiveDisplayChanged(978) > [0;32mINFO: WakeupServiceStop[0;m
+05-31 17:38:48.795+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: WakeupServiceStop(406) > [0;32mINFO: SEAMLESS WAKEUP STOP REQUEST[0;m
+05-31 17:38:48.805+0900 I/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_product.c: sound_manager_svoice_wakeup_enable(1216) > [SVOICE] Wake up Disable start
+05-31 17:38:48.810+0900 I/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_product.c: sound_manager_svoice_wakeup_enable(1219) > [SVOICE] Wake up Disable end. (ret: 0x0)
+05-31 17:38:48.810+0900 W/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_private.c: __convert_sound_manager_error_code(96) > [sound_manager_svoice_wakeup_enable] ERROR_NONE (0x00000000)
+05-31 17:38:48.810+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: WakeupSetSeamlessValue(369) > [0;32mINFO: WAKEUP SET : 0[0;m
+05-31 17:38:48.810+0900 I/HIGEAR  ( 1080): WakeupService.cpp: WakeupServiceStop(410) > [svoice:Application:WakeupServiceStop:IN]
+05-31 17:38:48.945+0900 I/watchface-viewer(  752): viewer-feedback.cpp: DisplayStateChangedCb(151) > state[2] sDisplayStateNormal[0]
+05-31 17:38:48.950+0900 I/SHealth_Common( 1102): SystemUtil.cpp: OnDeviceStatusChanged(679) > [1;35mlcdState:3[0;m
+05-31 17:38:48.950+0900 I/SHealth_Service( 1102): SHealthServiceController.cpp: OnSystemUtilLcdStateChanged(676) > [1;35m ###[0;m
+05-31 17:38:48.955+0900 W/STARTER (  697): clock-mgr.c: _on_lcd_signal_receive_cb(1553) > [_on_lcd_signal_receive_cb:1553] _on_lcd_signal_receive_cb, 1553, Post LCD off by [gesture]
+05-31 17:38:48.955+0900 W/STARTER (  697): clock-mgr.c: _post_lcd_off(1452) > [_post_lcd_off:1452] LCD OFF as reserved app[(null)] alpm mode[0]
+05-31 17:38:48.955+0900 W/STARTER (  697): clock-mgr.c: _post_lcd_off(1459) > [_post_lcd_off:1459] Current reserved apps status : 0
+05-31 17:38:48.955+0900 W/STARTER (  697): clock-mgr.c: _post_lcd_off(1477) > [_post_lcd_off:1477] raise homescreen after 20 sec. home_visible[0]
+05-31 17:38:48.965+0900 W/MUSIC_CONTROL_SERVICE( 1056): music-control-consumer-control.c: _music_control_consumer_display_state_changed_cb(471) > [36m[TID:1056]   [MUSIC_PLAYER_EVENT]DISPLAY_STATE_SCREEN_OFF[0m
+05-31 17:38:48.965+0900 I/APP_CORE( 3513): appcore-efl.c: __do_app(429) > [APP 3513] Event: PAUSE State: RUNNING
+05-31 17:38:48.965+0900 I/CAPI_APPFW_APPLICATION( 3513): app_main.c: _ui_app_appcore_pause(611) > app_appcore_pause
+05-31 17:38:48.970+0900 E/ALARM_MANAGER(  697): alarm-lib.c: alarmmgr_add_alarm_withcb(1162) > trigger_at_time(20), start(31-5-2016, 17:39:09), repeat(1), interval(20), type(-1073741822)
+05-31 17:38:48.980+0900 W/ALARM_MANAGER(  494): alarm-manager.c: __check_privilege_by_cookie(1525) > Try to read procfs status
+05-31 17:38:48.980+0900 W/ALARM_MANAGER(  494): alarm-manager.c: __check_privilege_by_cookie(1529) > Read procfs status successfully
+05-31 17:38:49.030+0900 E/ALARM_MANAGER(  494): alarm-manager-schedule.c: _alarm_next_duetime(504) > alarm_id: 1045703406, next duetime: 1464683949
+05-31 17:38:49.030+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __alarm_add_to_list(377) > [alarm-server]: After add alarm_id(1045703406)
+05-31 17:38:49.030+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __alarm_create(938) > [alarm-server]:alarm_context.c_due_time(1464706800), due_time(1464683949)
+05-31 17:38:49.030+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __rtc_set(229) > [alarm-server]ALARM_CLEAR ioctl is successfully done.
+05-31 17:38:49.030+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __rtc_set(236) > Setted RTC Alarm date/time is 31-5-2016, 08:39:09 (UTC).
+05-31 17:38:49.030+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __rtc_set(251) > [alarm-server]RTC ALARM_SET ioctl is successfully done.
+05-31 17:38:49.440+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: OnReceiveGestureChanged(993) > [0;32mINFO: wakeup receive data : 1124362728[0;m
+05-31 17:38:49.440+0900 W/WATCH_CORE(  752): appcore-watch.c: __signal_context_handler(1192) > _signal_context_handler: type: 0, state: 3
+05-31 17:38:49.440+0900 I/WATCH_CORE(  752): appcore-watch.c: __signal_context_handler(1209) > Call the time_tick_cb
+05-31 17:38:49.445+0900 I/CAPI_WATCH_APPLICATION(  752): watch_app_main.c: _watch_core_time_tick(306) > _watch_core_time_tick
+05-31 17:38:49.445+0900 E/watchface-loader(  752): watchface-loader.cpp: OnAppTimeTick(740) > 
+05-31 17:38:49.445+0900 I/watchface-loader(  752): watchface-loader.cpp: OnAppTimeTick(752) > set force update!!
+05-31 17:38:49.445+0900 W/W_HOME  (  722): dbus.c: _dbus_message_recv_cb(169) > gesture:wristup
+05-31 17:38:49.445+0900 W/W_HOME  (  722): gesture.c: _manual_render_schedule(211) > schedule, manual render
+05-31 17:38:49.460+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: OnReceiveGestureChanged(994) > [0;32mINFO: WakeupServiceStart[0;m
+05-31 17:38:49.460+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: WakeupServiceStart(376) > [0;32mINFO: SEAMLESS WAKEUP START REQUEST[0;m
+05-31 17:38:49.460+0900 I/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_product.c: sound_manager_svoice_set_param(1248) > [SVOICE] set param [keyword length] : 0
+05-31 17:38:49.465+0900 W/WATCH_CORE(  752): appcore-watch.c: __signal_lcd_status_handler(1130) > signal_lcd_status_signal: LCDOn
+05-31 17:38:49.465+0900 I/WATCH_CORE(  752): appcore-watch.c: __signal_lcd_status_handler(1149) > Call the time_tick_cb
+05-31 17:38:49.465+0900 I/CAPI_WATCH_APPLICATION(  752): watch_app_main.c: _watch_core_time_tick(306) > _watch_core_time_tick
+05-31 17:38:49.465+0900 E/watchface-loader(  752): watchface-loader.cpp: OnAppTimeTick(740) > 
+05-31 17:38:49.465+0900 I/watchface-loader(  752): watchface-loader.cpp: OnAppTimeTick(752) > set force update!!
+05-31 17:38:49.470+0900 W/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_private.c: __convert_sound_manager_error_code(96) > [sound_manager_svoice_set_param] ERROR_NONE (0x00000000)
+05-31 17:38:49.470+0900 I/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_product.c: sound_manager_svoice_wakeup_enable(1216) > [SVOICE] Wake up Enable start
+05-31 17:38:49.470+0900 I/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_product.c: sound_manager_svoice_wakeup_enable(1219) > [SVOICE] Wake up Enable end. (ret: 0x0)
+05-31 17:38:49.470+0900 W/W_HOME  (  722): dbus.c: _dbus_message_recv_cb(186) > LCD on
+05-31 17:38:49.470+0900 W/W_HOME  (  722): gesture.c: _manual_render_disable_timer_set(161) > timer set
+05-31 17:38:49.470+0900 W/W_HOME  (  722): gesture.c: _manual_render_disable_timer_del(151) > timer del
+05-31 17:38:49.475+0900 W/W_HOME  (  722): gesture.c: _apps_status_get(123) > apps status:0
+05-31 17:38:49.475+0900 W/W_HOME  (  722): gesture.c: _lcd_on_cb(295) > move_to_clock:0 clock_visible:0 info->offtime:680
+05-31 17:38:49.475+0900 W/W_HOME  (  722): gesture.c: _manual_render_schedule(211) > schedule, manual render
+05-31 17:38:49.475+0900 W/W_HOME  (  722): event_manager.c: _lcd_on_cb(691) > lcd state: 1
+05-31 17:38:49.475+0900 W/W_HOME  (  722): event_manager.c: _state_control(194) > control:4, app_state:2 win_state:1(0) pm_state:1 home_visible:1 clock_visible:0 tutorial_state:0 editing : 0, home_clocklist:0, addviewer:0 scrolling : 0, powersaving : 0, apptray state : 1, apptray visibility : 0, apptray edit visibility : 0
+05-31 17:38:49.475+0900 W/STARTER (  697): clock-mgr.c: _on_lcd_signal_receive_cb(1520) > [_on_lcd_signal_receive_cb:1520] _on_lcd_signal_receive_cb, 1520, Pre LCD on by [gesture] after screen off time [680]ms
+05-31 17:38:49.475+0900 W/STARTER (  697): clock-mgr.c: _pre_lcd_on(1246) > [_pre_lcd_on:1246] Will LCD ON as reserved app[(null)] alpm mode[0]
+05-31 17:38:49.475+0900 W/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_private.c: __convert_sound_manager_error_code(96) > [sound_manager_svoice_wakeup_enable] ERROR_NONE (0x00000000)
+05-31 17:38:49.475+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: WakeupSetSeamlessValue(369) > [0;32mINFO: WAKEUP SET : 1[0;m
+05-31 17:38:49.475+0900 I/HIGEAR  ( 1080): WakeupService.cpp: WakeupServiceStart(400) > [svoice:Application:WakeupServiceStart:IN]
+05-31 17:38:49.475+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: OnReceiveDisplayChanged(968) > [0;32mINFO: LCDOn receive data : 1075153676[0;m
+05-31 17:38:49.480+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: OnReceiveDisplayChanged(969) > [0;32mINFO: WakeupServiceStart[0;m
+05-31 17:38:49.480+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: WakeupServiceStart(376) > [0;32mINFO: SEAMLESS WAKEUP START REQUEST[0;m
+05-31 17:38:49.480+0900 I/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_product.c: sound_manager_svoice_set_param(1248) > [SVOICE] set param [keyword length] : 0
+05-31 17:38:49.485+0900 W/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_private.c: __convert_sound_manager_error_code(96) > [sound_manager_svoice_set_param] ERROR_NONE (0x00000000)
+05-31 17:38:49.490+0900 I/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_product.c: sound_manager_svoice_wakeup_enable(1216) > [SVOICE] Wake up Enable start
+05-31 17:38:49.490+0900 I/APP_CORE( 3513): appcore-efl.c: __do_app(429) > [APP 3513] Event: RESUME State: PAUSED
+05-31 17:38:49.490+0900 I/CAPI_APPFW_APPLICATION( 3513): app_main.c: _ui_app_appcore_resume(628) > app_appcore_resume
+05-31 17:38:49.490+0900 W/ALARM_MANAGER(  494): alarm-manager.c: __check_privilege_by_cookie(1525) > Try to read procfs status
+05-31 17:38:49.490+0900 I/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_product.c: sound_manager_svoice_wakeup_enable(1219) > [SVOICE] Wake up Enable end. (ret: 0x0)
+05-31 17:38:49.490+0900 W/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_private.c: __convert_sound_manager_error_code(96) > [sound_manager_svoice_wakeup_enable] ERROR_NONE (0x00000000)
+05-31 17:38:49.490+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: WakeupSetSeamlessValue(369) > [0;32mINFO: WAKEUP SET : 1[0;m
+05-31 17:38:49.490+0900 I/HIGEAR  ( 1080): WakeupService.cpp: WakeupServiceStart(400) > [svoice:Application:WakeupServiceStart:IN]
+05-31 17:38:49.495+0900 W/ALARM_MANAGER(  494): alarm-manager.c: __check_privilege_by_cookie(1529) > Read procfs status successfully
+05-31 17:38:49.495+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __alarm_remove_from_list(456) > [alarm-server]:Remove alarm id(1045703406)
+05-31 17:38:49.495+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __rtc_set(229) > [alarm-server]ALARM_CLEAR ioctl is successfully done.
+05-31 17:38:49.495+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __rtc_set(236) > Setted RTC Alarm date/time is 31-5-2016, 15:00:00 (UTC).
+05-31 17:38:49.495+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __rtc_set(251) > [alarm-server]RTC ALARM_SET ioctl is successfully done.
+05-31 17:38:49.495+0900 E/ALARM_MANAGER(  494): alarm-manager.c: alarm_manager_alarm_delete(2209) > alarm_id[1045703406] is removed.
+05-31 17:38:49.540+0900 I/watchface-viewer(  752): viewer-feedback.cpp: DisplayStateChangedCb(151) > state[0] sDisplayStateNormal[1]
+05-31 17:38:49.545+0900 I/SHealth_Common( 1102): SystemUtil.cpp: OnDeviceStatusChanged(679) > [1;35mlcdState:1[0;m
+05-31 17:38:49.545+0900 I/SHealth_Service( 1102): SHealthServiceController.cpp: OnSystemUtilLcdStateChanged(676) > [1;35m ###[0;m
+05-31 17:38:49.545+0900 W/MUSIC_CONTROL_SERVICE( 1056): music-control-consumer-control.c: _music_control_consumer_display_state_changed_cb(478) > [36m[TID:1056]   [MUSIC_PLAYER_EVENT]DISPLAY_STATE_NORMAL[0m
+05-31 17:38:49.570+0900 W/STARTER (  697): clock-mgr.c: _on_lcd_signal_receive_cb(1531) > [_on_lcd_signal_receive_cb:1531] _on_lcd_signal_receive_cb, 1531, Post LCD on by [gesture]
+05-31 17:38:49.570+0900 W/STARTER (  697): clock-mgr.c: _post_lcd_on(1292) > [_post_lcd_on:1292] LCD ON as reserved app[(null)] alpm mode[0]
+05-31 17:38:49.605+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: _preference_check_retry_err(507) > key(pedometer_inactive_period), check retry err: -21/(2/No such file or directory).
+05-31 17:38:49.605+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: _preference_get_key(1101) > _preference_get_key(pedometer_inactive_period) step(-17825744) failed(2 / No such file or directory)
+05-31 17:38:49.605+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: preference_get_double(1214) > preference_get_double(1102) : pedometer_inactive_period error
+05-31 17:38:49.605+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: _preference_check_retry_err(507) > key(inactive_10min_precaution_millisec), check retry err: -21/(2/No such file or directory).
+05-31 17:38:49.605+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: _preference_get_key(1101) > _preference_get_key(inactive_10min_precaution_millisec) step(-17825744) failed(2 / No such file or directory)
+05-31 17:38:49.605+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: preference_get_double(1214) > preference_get_double(1102) : inactive_10min_precaution_millisec error
+05-31 17:38:49.605+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: _preference_check_retry_err(507) > key(inactive_before_10min_precaution_millisec), check retry err: -21/(2/No such file or directory).
+05-31 17:38:49.605+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: _preference_get_key(1101) > _preference_get_key(inactive_before_10min_precaution_millisec) step(-17825744) failed(2 / No such file or directory)
+05-31 17:38:49.605+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: preference_get_double(1214) > preference_get_double(1102) : inactive_before_10min_precaution_millisec error
+05-31 17:38:49.675+0900 W/W_HOME  (  722): gesture.c: _manual_render_disable_timer_cb(140) > timeout callback expired
+05-31 17:38:49.675+0900 W/W_HOME  (  722): gesture.c: _manual_render_enable(133) > 0
+05-31 17:38:49.735+0900 I/aa      ( 3513): res = 0
+05-31 17:38:49.735+0900 I/aa      ( 3513): res = 0
+05-31 17:38:49.735+0900 I/aa      ( 3513): db hi = -23.053837
+05-31 17:38:49.740+0900 I/HAP     ( 3513): Updating UI with data 주의 하세요!
+05-31 17:38:49.745+0900 E/EFL     ( 3513): evas-gl_x11<3513> evas_x_main.c:644 eng_window_use() eglMakeCurrent() failed!
+05-31 17:38:49.760+0900 E/WMS     (  496): wms_event_handler.c: _wms_event_handler_cb_wearonoff_monitor(20197) > wear_monitor_status update[0] = 2 -> 1
+05-31 17:38:49.760+0900 E/WMS     (  496): wms_msg_broker.c: wms_msg_broker_send(1743) > 
+05-31 17:38:49.760+0900 E/WMS     (  496): ==========
+05-31 17:38:49.760+0900 E/WMS     (  496): ##WMS SEND : mgr_gear_wear_onoff_req
+05-31 17:38:49.760+0900 E/WMS     (  496): ==========
+05-31 17:38:49.760+0900 E/WMS     (  496): wms_msg_broker.c: wms_msg_broker_send(1759) > Data size: 52 MAX Buffer Size: 61440
+05-31 17:38:49.800+0900 W/SHealth_Service( 1102): ContextRestingHeartrateProxy.cpp: OnRestingHrUpdatedCB(325) > [1;40;33mhrValue: 1007[0;m
+05-31 17:38:49.805+0900 E/SHealth_Service( 1102): RestingHeartrateController.cpp: OnAutoHrDetected(83) > [0;40;31minvalid parameter[0;m
+05-31 17:38:51.310+0900 I/APP_CORE( 2547): appcore-efl.c: __do_app(429) > [APP 2547] Event: MEM_FLUSH State: PAUSED
+05-31 17:38:52.770+0900 W/AUL_AMD (  498): amd_request.c: __request_handler(646) > __request_handler: 14
+05-31 17:38:52.835+0900 I/aa      ( 3513): db hi = 0
+05-31 17:38:52.835+0900 W/AUL_AMD (  498): amd_request.c: __send_result_to_client(83) > __send_result_to_client, pid: 3513
+05-31 17:38:53.370+0900 E/EFL     ( 3513): evas_main<3513> evas_events.c:994 evas_event_feed_mouse_down() ButtonEvent:down time=40230661 button=1 downs=1
+05-31 17:38:53.435+0900 E/EFL     ( 3513): evas_main<3513> evas_events.c:1258 evas_event_feed_mouse_up() ButtonEvent:up time=40230731 button=1 downs=0
+05-31 17:38:53.835+0900 I/aa      ( 3513): res = 0
+05-31 17:38:53.835+0900 I/aa      ( 3513): res = 0
+05-31 17:38:53.835+0900 I/aa      ( 3513): db hi = -16.201134
+05-31 17:38:53.890+0900 I/HAP     ( 3513): Updating UI with data 주의 하세요!
+05-31 17:38:54.220+0900 E/TIZEN_N_RECORDER( 3513): recorder.c: __convert_recorder_error_code(193) > [recorder_commit] ERROR_NONE(0x00000000) : core frameworks error code(0x00000000)
+05-31 17:38:54.225+0900 E/TIZEN_N_RECORDER( 3513): recorder.c: __convert_recorder_error_code(193) > [recorder_unprepare] ERROR_NONE(0x00000000) : core frameworks error code(0x00000000)
+05-31 17:38:57.020+0900 I/aa      ( 3513): db hi = 0
+05-31 17:38:57.850+0900 W/AUL_AMD (  498): amd_request.c: __request_handler(646) > __request_handler: 14
+05-31 17:38:57.925+0900 W/AUL_AMD (  498): amd_request.c: __send_result_to_client(83) > __send_result_to_client, pid: 3513
+05-31 17:38:58.020+0900 I/aa      ( 3513): res = 0
+05-31 17:38:58.020+0900 E/TIZEN_N_RECORDER( 3513): recorder.c: recorder_get_audio_level(925) > [recorder_get_audio_level]RECORDER_ERROR_INVALID_STATE(0xfe6b0012) 
+05-31 17:38:58.020+0900 I/aa      ( 3513): res = -26542062
+05-31 17:38:58.020+0900 I/aa      ( 3513): db hi = -16.201134
+05-31 17:38:58.080+0900 I/HAP     ( 3513): Updating UI with data 주의 하세요!
+05-31 17:39:00.185+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: _preference_check_retry_err(507) > key(pedometer_inactive_period), check retry err: -21/(2/No such file or directory).
+05-31 17:39:00.190+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: _preference_get_key(1101) > _preference_get_key(pedometer_inactive_period) step(-17825744) failed(2 / No such file or directory)
+05-31 17:39:00.200+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: preference_get_double(1214) > preference_get_double(1102) : pedometer_inactive_period error
+05-31 17:39:00.210+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: _preference_check_retry_err(507) > key(inactive_10min_precaution_millisec), check retry err: -21/(2/No such file or directory).
+05-31 17:39:00.210+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: _preference_get_key(1101) > _preference_get_key(inactive_10min_precaution_millisec) step(-17825744) failed(2 / No such file or directory)
+05-31 17:39:00.215+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: preference_get_double(1214) > preference_get_double(1102) : inactive_10min_precaution_millisec error
+05-31 17:39:00.220+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: _preference_check_retry_err(507) > key(inactive_before_10min_precaution_millisec), check retry err: -21/(2/No such file or directory).
+05-31 17:39:00.220+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: _preference_get_key(1101) > _preference_get_key(inactive_before_10min_precaution_millisec) step(-17825744) failed(2 / No such file or directory)
+05-31 17:39:00.220+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: preference_get_double(1214) > preference_get_double(1102) : inactive_before_10min_precaution_millisec error
+05-31 17:39:01.155+0900 I/aa      ( 3513): db hi = 0
+05-31 17:39:02.160+0900 I/aa      ( 3513): res = -26542062
+05-31 17:39:02.160+0900 E/TIZEN_N_RECORDER( 3513): recorder.c: recorder_get_audio_level(925) > [recorder_get_audio_level]RECORDER_ERROR_INVALID_STATE(0xfe6b0012) 
+05-31 17:39:02.175+0900 I/aa      ( 3513): res = -26542062
+05-31 17:39:02.180+0900 I/aa      ( 3513): db hi = -16.201134
+05-31 17:39:02.225+0900 I/HAP     ( 3513): Updating UI with data 주의 하세요!
+05-31 17:39:02.870+0900 W/AUL_AMD (  498): amd_request.c: __request_handler(646) > __request_handler: 14
+05-31 17:39:02.965+0900 W/AUL_AMD (  498): amd_request.c: __send_result_to_client(83) > __send_result_to_client, pid: 3513
+05-31 17:39:05.310+0900 I/aa      ( 3513): db hi = 0
+05-31 17:39:06.315+0900 I/aa      ( 3513): res = -26542062
+05-31 17:39:06.320+0900 E/TIZEN_N_RECORDER( 3513): recorder.c: recorder_get_audio_level(925) > [recorder_get_audio_level]RECORDER_ERROR_INVALID_STATE(0xfe6b0012) 
+05-31 17:39:06.330+0900 I/aa      ( 3513): res = -26542062
+05-31 17:39:06.330+0900 I/aa      ( 3513): db hi = -16.201134
+05-31 17:39:06.390+0900 I/HAP     ( 3513): Updating UI with data 주의 하세요!
+05-31 17:39:07.900+0900 W/AUL_AMD (  498): amd_request.c: __request_handler(646) > __request_handler: 14
+05-31 17:39:08.010+0900 W/AUL_AMD (  498): amd_request.c: __send_result_to_client(83) > __send_result_to_client, pid: 3513
+05-31 17:39:08.110+0900 W/WATCH_CORE(  752): appcore-watch.c: __signal_lcd_status_handler(1130) > signal_lcd_status_signal: LCDOff
+05-31 17:39:08.115+0900 W/W_HOME  (  722): dbus.c: _dbus_message_recv_cb(204) > LCD off
+05-31 17:39:08.115+0900 W/W_HOME  (  722): gesture.c: _manual_render_disable_timer_del(151) > timer del
+05-31 17:39:08.115+0900 W/W_HOME  (  722): gesture.c: _manual_render_enable(133) > 1
+05-31 17:39:08.115+0900 W/W_HOME  (  722): event_manager.c: _lcd_off_cb(699) > lcd state: 0
+05-31 17:39:08.115+0900 W/W_HOME  (  722): event_manager.c: _state_control(194) > control:4, app_state:2 win_state:1(0) pm_state:0 home_visible:1 clock_visible:0 tutorial_state:0 editing : 0, home_clocklist:0, addviewer:0 scrolling : 0, powersaving : 0, apptray state : 1, apptray visibility : 0, apptray edit visibility : 0
+05-31 17:39:08.120+0900 W/STARTER (  697): clock-mgr.c: _on_lcd_signal_receive_cb(1542) > [_on_lcd_signal_receive_cb:1542] _on_lcd_signal_receive_cb, 1542, Pre LCD off by [timeout]
+05-31 17:39:08.120+0900 W/STARTER (  697): clock-mgr.c: _pre_lcd_off(1326) > [_pre_lcd_off:1326] Will LCD OFF as wake_up_setting[1]
+05-31 17:39:08.135+0900 I/watchface-viewer(  752): viewer-feedback.cpp: DisplayStateChangedCb(151) > state[2] sDisplayStateNormal[0]
+05-31 17:39:08.145+0900 E/STARTER (  697): scontext_util.c: scontext_util_handle_lock_state(64) > [scontext_util_handle_lock_state:64] wear state[0],bPossible [0]
+05-31 17:39:08.145+0900 W/STARTER (  697): clock-mgr.c: _check_reserved_popup_status(256) > [_check_reserved_popup_status:256] Current reserved apps status : 0
+05-31 17:39:08.145+0900 W/STARTER (  697): clock-mgr.c: _check_reserved_apps_status(292) > [_check_reserved_apps_status:292] Current reserved apps status : 0
+05-31 17:39:08.195+0900 W/STARTER (  697): clock-mgr.c: _on_lcd_signal_receive_cb(1553) > [_on_lcd_signal_receive_cb:1553] _on_lcd_signal_receive_cb, 1553, Post LCD off by [timeout]
+05-31 17:39:08.195+0900 W/STARTER (  697): clock-mgr.c: _post_lcd_off(1452) > [_post_lcd_off:1452] LCD OFF as reserved app[(null)] alpm mode[0]
+05-31 17:39:08.195+0900 W/STARTER (  697): clock-mgr.c: _post_lcd_off(1459) > [_post_lcd_off:1459] Current reserved apps status : 0
+05-31 17:39:08.195+0900 W/STARTER (  697): clock-mgr.c: _post_lcd_off(1477) > [_post_lcd_off:1477] raise homescreen after 20 sec. home_visible[0]
+05-31 17:39:08.235+0900 I/APP_CORE( 3513): appcore-efl.c: __do_app(429) > [APP 3513] Event: PAUSE State: RUNNING
+05-31 17:39:08.235+0900 I/CAPI_APPFW_APPLICATION( 3513): app_main.c: _ui_app_appcore_pause(611) > app_appcore_pause
+05-31 17:39:08.260+0900 E/ALARM_MANAGER(  697): alarm-lib.c: alarmmgr_add_alarm_withcb(1162) > trigger_at_time(20), start(31-5-2016, 17:39:28), repeat(1), interval(20), type(-1073741822)
+05-31 17:39:08.270+0900 W/ALARM_MANAGER(  494): alarm-manager.c: __check_privilege_by_cookie(1525) > Try to read procfs status
+05-31 17:39:08.275+0900 W/ALARM_MANAGER(  494): alarm-manager.c: __check_privilege_by_cookie(1529) > Read procfs status successfully
+05-31 17:39:08.305+0900 I/SHealth_Common( 1102): SystemUtil.cpp: OnDeviceStatusChanged(679) > [1;35mlcdState:3[0;m
+05-31 17:39:08.320+0900 I/SHealth_Service( 1102): SHealthServiceController.cpp: OnSystemUtilLcdStateChanged(676) > [1;35m ###[0;m
+05-31 17:39:08.320+0900 W/MUSIC_CONTROL_SERVICE( 1056): music-control-consumer-control.c: _music_control_consumer_display_state_changed_cb(471) > [36m[TID:1056]   [MUSIC_PLAYER_EVENT]DISPLAY_STATE_SCREEN_OFF[0m
+05-31 17:39:08.355+0900 E/ALARM_MANAGER(  494): alarm-manager-schedule.c: _alarm_next_duetime(504) > alarm_id: 625526358, next duetime: 1464683968
+05-31 17:39:08.355+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __alarm_add_to_list(377) > [alarm-server]: After add alarm_id(625526358)
+05-31 17:39:08.355+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __alarm_create(938) > [alarm-server]:alarm_context.c_due_time(1464706800), due_time(1464683968)
+05-31 17:39:08.355+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __rtc_set(229) > [alarm-server]ALARM_CLEAR ioctl is successfully done.
+05-31 17:39:08.355+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __rtc_set(236) > Setted RTC Alarm date/time is 31-5-2016, 08:39:28 (UTC).
+05-31 17:39:08.355+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __rtc_set(251) > [alarm-server]RTC ALARM_SET ioctl is successfully done.
+05-31 17:39:08.370+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: OnReceiveDisplayChanged(977) > [0;32mINFO: LCDOff receive data : 1075153676[0;m
+05-31 17:39:08.375+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: OnReceiveDisplayChanged(978) > [0;32mINFO: WakeupServiceStop[0;m
+05-31 17:39:08.380+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: WakeupServiceStop(406) > [0;32mINFO: SEAMLESS WAKEUP STOP REQUEST[0;m
+05-31 17:39:08.380+0900 I/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_product.c: sound_manager_svoice_wakeup_enable(1216) > [SVOICE] Wake up Disable start
+05-31 17:39:08.450+0900 I/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_product.c: sound_manager_svoice_wakeup_enable(1219) > [SVOICE] Wake up Disable end. (ret: 0x0)
+05-31 17:39:08.455+0900 W/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_private.c: __convert_sound_manager_error_code(96) > [sound_manager_svoice_wakeup_enable] ERROR_NONE (0x00000000)
+05-31 17:39:08.455+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: WakeupSetSeamlessValue(369) > [0;32mINFO: WAKEUP SET : 0[0;m
+05-31 17:39:08.455+0900 I/HIGEAR  ( 1080): WakeupService.cpp: WakeupServiceStop(410) > [svoice:Application:WakeupServiceStop:IN]
+05-31 17:39:09.475+0900 I/aa      ( 3513): db hi = 0
+05-31 17:39:10.349+0900 I/watchface-viewer(  752): viewer-feedback.cpp: DisplayStateChangedCb(151) > state[0] sDisplayStateNormal[1]
+05-31 17:39:10.400+0900 W/WATCH_CORE(  752): appcore-watch.c: __signal_lcd_status_handler(1130) > signal_lcd_status_signal: LCDOn
+05-31 17:39:10.400+0900 I/WATCH_CORE(  752): appcore-watch.c: __signal_lcd_status_handler(1149) > Call the time_tick_cb
+05-31 17:39:10.400+0900 I/CAPI_WATCH_APPLICATION(  752): watch_app_main.c: _watch_core_time_tick(306) > _watch_core_time_tick
+05-31 17:39:10.400+0900 E/watchface-loader(  752): watchface-loader.cpp: OnAppTimeTick(740) > 
+05-31 17:39:10.400+0900 I/watchface-loader(  752): watchface-loader.cpp: OnAppTimeTick(752) > set force update!!
+05-31 17:39:10.405+0900 W/W_HOME  (  722): dbus.c: _dbus_message_recv_cb(186) > LCD on
+05-31 17:39:10.405+0900 W/W_HOME  (  722): gesture.c: _manual_render_disable_timer_set(161) > timer set
+05-31 17:39:10.405+0900 W/W_HOME  (  722): gesture.c: _manual_render_disable_timer_del(151) > timer del
+05-31 17:39:10.405+0900 W/W_HOME  (  722): gesture.c: _apps_status_get(123) > apps status:0
+05-31 17:39:10.405+0900 W/W_HOME  (  722): gesture.c: _lcd_on_cb(295) > move_to_clock:0 clock_visible:0 info->offtime:2462
+05-31 17:39:10.405+0900 W/W_HOME  (  722): gesture.c: _manual_render_schedule(211) > schedule, manual render
+05-31 17:39:10.405+0900 W/W_HOME  (  722): event_manager.c: _lcd_on_cb(691) > lcd state: 1
+05-31 17:39:10.405+0900 W/W_HOME  (  722): event_manager.c: _state_control(194) > control:4, app_state:2 win_state:1(0) pm_state:1 home_visible:1 clock_visible:0 tutorial_state:0 editing : 0, home_clocklist:0, addviewer:0 scrolling : 0, powersaving : 0, apptray state : 1, apptray visibility : 0, apptray edit visibility : 0
+05-31 17:39:10.410+0900 W/STARTER (  697): clock-mgr.c: _on_lcd_signal_receive_cb(1520) > [_on_lcd_signal_receive_cb:1520] _on_lcd_signal_receive_cb, 1520, Pre LCD on by [unknown] after screen off time [2462]ms
+05-31 17:39:10.410+0900 W/STARTER (  697): clock-mgr.c: _pre_lcd_on(1246) > [_pre_lcd_on:1246] Will LCD ON as reserved app[(null)] alpm mode[0]
+05-31 17:39:10.425+0900 I/APP_CORE( 3513): appcore-efl.c: __do_app(429) > [APP 3513] Event: RESUME State: PAUSED
+05-31 17:39:10.425+0900 I/CAPI_APPFW_APPLICATION( 3513): app_main.c: _ui_app_appcore_resume(628) > app_appcore_resume
+05-31 17:39:10.430+0900 W/ALARM_MANAGER(  494): alarm-manager.c: __check_privilege_by_cookie(1525) > Try to read procfs status
+05-31 17:39:10.430+0900 W/ALARM_MANAGER(  494): alarm-manager.c: __check_privilege_by_cookie(1529) > Read procfs status successfully
+05-31 17:39:10.430+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __alarm_remove_from_list(456) > [alarm-server]:Remove alarm id(625526358)
+05-31 17:39:10.430+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __rtc_set(229) > [alarm-server]ALARM_CLEAR ioctl is successfully done.
+05-31 17:39:10.430+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __rtc_set(236) > Setted RTC Alarm date/time is 31-5-2016, 15:00:00 (UTC).
+05-31 17:39:10.430+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __rtc_set(251) > [alarm-server]RTC ALARM_SET ioctl is successfully done.
+05-31 17:39:10.430+0900 E/ALARM_MANAGER(  494): alarm-manager.c: alarm_manager_alarm_delete(2209) > alarm_id[625526358] is removed.
+05-31 17:39:10.465+0900 I/efl-extension(  722): efl_extension_rotary.c: _process_raw_event(444) > direction: Clockwise
+05-31 17:39:10.480+0900 I/aa      ( 3513): res = -26542062
+05-31 17:39:10.480+0900 E/TIZEN_N_RECORDER( 3513): recorder.c: recorder_get_audio_level(925) > [recorder_get_audio_level]RECORDER_ERROR_INVALID_STATE(0xfe6b0012) 
+05-31 17:39:10.480+0900 I/aa      ( 3513): res = -26542062
+05-31 17:39:10.480+0900 I/aa      ( 3513): db hi = -16.201134
+05-31 17:39:10.480+0900 I/efl-extension( 1724): efl_extension_rotary.c: _process_raw_event(444) > direction: Clockwise
+05-31 17:39:10.500+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: OnReceiveDisplayChanged(968) > [0;32mINFO: LCDOn receive data : 1075153676[0;m
+05-31 17:39:10.500+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: OnReceiveDisplayChanged(969) > [0;32mINFO: WakeupServiceStart[0;m
+05-31 17:39:10.505+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: WakeupServiceStart(376) > [0;32mINFO: SEAMLESS WAKEUP START REQUEST[0;m
+05-31 17:39:10.505+0900 I/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_product.c: sound_manager_svoice_set_param(1248) > [SVOICE] set param [keyword length] : 0
+05-31 17:39:10.510+0900 W/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_private.c: __convert_sound_manager_error_code(96) > [sound_manager_svoice_set_param] ERROR_NONE (0x00000000)
+05-31 17:39:10.510+0900 I/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_product.c: sound_manager_svoice_wakeup_enable(1216) > [SVOICE] Wake up Enable start
+05-31 17:39:10.525+0900 W/STARTER (  697): clock-mgr.c: _on_lcd_signal_receive_cb(1531) > [_on_lcd_signal_receive_cb:1531] _on_lcd_signal_receive_cb, 1531, Post LCD on by [unknown]
+05-31 17:39:10.525+0900 W/STARTER (  697): clock-mgr.c: _post_lcd_on(1292) > [_post_lcd_on:1292] LCD ON as reserved app[(null)] alpm mode[0]
+05-31 17:39:10.545+0900 I/HAP     ( 3513): Updating UI with data 주의 하세요!
+05-31 17:39:10.565+0900 I/SHealth_Common( 1102): SystemUtil.cpp: OnDeviceStatusChanged(679) > [1;35mlcdState:1[0;m
+05-31 17:39:10.585+0900 I/SHealth_Service( 1102): SHealthServiceController.cpp: OnSystemUtilLcdStateChanged(676) > [1;35m ###[0;m
+05-31 17:39:10.595+0900 W/MUSIC_CONTROL_SERVICE( 1056): music-control-consumer-control.c: _music_control_consumer_display_state_changed_cb(478) > [36m[TID:1056]   [MUSIC_PLAYER_EVENT]DISPLAY_STATE_NORMAL[0m
+05-31 17:39:10.595+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: _preference_check_retry_err(507) > key(pedometer_inactive_period), check retry err: -21/(2/No such file or directory).
+05-31 17:39:10.595+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: _preference_get_key(1101) > _preference_get_key(pedometer_inactive_period) step(-17825744) failed(2 / No such file or directory)
+05-31 17:39:10.595+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: preference_get_double(1214) > preference_get_double(1102) : pedometer_inactive_period error
+05-31 17:39:10.595+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: _preference_check_retry_err(507) > key(inactive_10min_precaution_millisec), check retry err: -21/(2/No such file or directory).
+05-31 17:39:10.595+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: _preference_get_key(1101) > _preference_get_key(inactive_10min_precaution_millisec) step(-17825744) failed(2 / No such file or directory)
+05-31 17:39:10.595+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: preference_get_double(1214) > preference_get_double(1102) : inactive_10min_precaution_millisec error
+05-31 17:39:10.595+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: _preference_check_retry_err(507) > key(inactive_before_10min_precaution_millisec), check retry err: -21/(2/No such file or directory).
+05-31 17:39:10.595+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: _preference_get_key(1101) > _preference_get_key(inactive_before_10min_precaution_millisec) step(-17825744) failed(2 / No such file or directory)
+05-31 17:39:10.595+0900 E/CAPI_APPFW_APPLICATION_PREFERENCE( 1102): preference.c: preference_get_double(1214) > preference_get_double(1102) : inactive_before_10min_precaution_millisec error
+05-31 17:39:10.605+0900 W/W_HOME  (  722): gesture.c: _manual_render_disable_timer_cb(140) > timeout callback expired
+05-31 17:39:10.605+0900 W/W_HOME  (  722): gesture.c: _manual_render_enable(133) > 0
+05-31 17:39:10.760+0900 I/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_product.c: sound_manager_svoice_wakeup_enable(1219) > [SVOICE] Wake up Enable end. (ret: 0x0)
+05-31 17:39:10.760+0900 W/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_private.c: __convert_sound_manager_error_code(96) > [sound_manager_svoice_wakeup_enable] ERROR_NONE (0x00000000)
+05-31 17:39:10.760+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: WakeupSetSeamlessValue(369) > [0;32mINFO: WAKEUP SET : 1[0;m
+05-31 17:39:10.760+0900 I/HIGEAR  ( 1080): WakeupService.cpp: WakeupServiceStart(400) > [svoice:Application:WakeupServiceStart:IN]
+05-31 17:39:12.770+0900 W/AUL_AMD (  498): amd_request.c: __request_handler(646) > __request_handler: 14
+05-31 17:39:12.860+0900 W/AUL_AMD (  498): amd_request.c: __send_result_to_client(83) > __send_result_to_client, pid: 3513
+05-31 17:39:13.595+0900 I/aa      ( 3513): db hi = 0
+05-31 17:39:14.605+0900 I/aa      ( 3513): res = -26542062
+05-31 17:39:14.605+0900 E/TIZEN_N_RECORDER( 3513): recorder.c: recorder_get_audio_level(925) > [recorder_get_audio_level]RECORDER_ERROR_INVALID_STATE(0xfe6b0012) 
+05-31 17:39:14.605+0900 I/aa      ( 3513): res = -26542062
+05-31 17:39:14.605+0900 I/aa      ( 3513): db hi = -16.201134
+05-31 17:39:14.655+0900 I/HAP     ( 3513): Updating UI with data 주의 하세요!
+05-31 17:39:17.730+0900 I/aa      ( 3513): db hi = 0
+05-31 17:39:17.875+0900 W/AUL_AMD (  498): amd_request.c: __request_handler(646) > __request_handler: 14
+05-31 17:39:17.935+0900 W/AUL_AMD (  498): amd_request.c: __send_result_to_client(83) > __send_result_to_client, pid: 3513
+05-31 17:39:18.735+0900 I/aa      ( 3513): res = -26542062
+05-31 17:39:18.735+0900 E/TIZEN_N_RECORDER( 3513): recorder.c: recorder_get_audio_level(925) > [recorder_get_audio_level]RECORDER_ERROR_INVALID_STATE(0xfe6b0012) 
+05-31 17:39:18.735+0900 I/aa      ( 3513): res = -26542062
+05-31 17:39:18.735+0900 I/aa      ( 3513): db hi = -16.201134
+05-31 17:39:18.785+0900 I/HAP     ( 3513): Updating UI with data 주의 하세요!
+05-31 17:39:21.865+0900 I/aa      ( 3513): db hi = 0
+05-31 17:39:22.835+0900 W/AUL_AMD (  498): amd_request.c: __request_handler(646) > __request_handler: 14
+05-31 17:39:22.880+0900 I/aa      ( 3513): res = -26542062
+05-31 17:39:22.880+0900 E/TIZEN_N_RECORDER( 3513): recorder.c: recorder_get_audio_level(925) > [recorder_get_audio_level]RECORDER_ERROR_INVALID_STATE(0xfe6b0012) 
+05-31 17:39:22.880+0900 I/aa      ( 3513): res = -26542062
+05-31 17:39:22.880+0900 I/aa      ( 3513): db hi = -16.201134
+05-31 17:39:22.905+0900 W/AUL_AMD (  498): amd_request.c: __send_result_to_client(83) > __send_result_to_client, pid: 3513
+05-31 17:39:22.930+0900 I/HAP     ( 3513): Updating UI with data 주의 하세요!
+05-31 17:39:25.030+0900 W/WATCH_CORE(  752): appcore-watch.c: __signal_lcd_status_handler(1130) > signal_lcd_status_signal: LCDOff
+05-31 17:39:25.035+0900 W/W_HOME  (  722): dbus.c: _dbus_message_recv_cb(204) > LCD off
+05-31 17:39:25.035+0900 W/W_HOME  (  722): gesture.c: _manual_render_disable_timer_del(151) > timer del
+05-31 17:39:25.035+0900 W/W_HOME  (  722): gesture.c: _manual_render_enable(133) > 1
+05-31 17:39:25.035+0900 W/W_HOME  (  722): event_manager.c: _lcd_off_cb(699) > lcd state: 0
+05-31 17:39:25.035+0900 W/W_HOME  (  722): event_manager.c: _state_control(194) > control:4, app_state:2 win_state:1(0) pm_state:0 home_visible:1 clock_visible:0 tutorial_state:0 editing : 0, home_clocklist:0, addviewer:0 scrolling : 0, powersaving : 0, apptray state : 1, apptray visibility : 0, apptray edit visibility : 0
+05-31 17:39:25.040+0900 W/STARTER (  697): clock-mgr.c: _on_lcd_signal_receive_cb(1542) > [_on_lcd_signal_receive_cb:1542] _on_lcd_signal_receive_cb, 1542, Pre LCD off by [timeout]
+05-31 17:39:25.040+0900 W/STARTER (  697): clock-mgr.c: _pre_lcd_off(1326) > [_pre_lcd_off:1326] Will LCD OFF as wake_up_setting[1]
+05-31 17:39:25.040+0900 E/STARTER (  697): scontext_util.c: scontext_util_handle_lock_state(64) > [scontext_util_handle_lock_state:64] wear state[0],bPossible [0]
+05-31 17:39:25.040+0900 W/STARTER (  697): clock-mgr.c: _check_reserved_popup_status(256) > [_check_reserved_popup_status:256] Current reserved apps status : 0
+05-31 17:39:25.040+0900 W/STARTER (  697): clock-mgr.c: _check_reserved_apps_status(292) > [_check_reserved_apps_status:292] Current reserved apps status : 0
+05-31 17:39:25.065+0900 I/watchface-viewer(  752): viewer-feedback.cpp: DisplayStateChangedCb(151) > state[2] sDisplayStateNormal[0]
+05-31 17:39:25.105+0900 W/STARTER (  697): clock-mgr.c: _on_lcd_signal_receive_cb(1553) > [_on_lcd_signal_receive_cb:1553] _on_lcd_signal_receive_cb, 1553, Post LCD off by [timeout]
+05-31 17:39:25.105+0900 W/STARTER (  697): clock-mgr.c: _post_lcd_off(1452) > [_post_lcd_off:1452] LCD OFF as reserved app[(null)] alpm mode[0]
+05-31 17:39:25.105+0900 W/STARTER (  697): clock-mgr.c: _post_lcd_off(1459) > [_post_lcd_off:1459] Current reserved apps status : 0
+05-31 17:39:25.105+0900 W/STARTER (  697): clock-mgr.c: _post_lcd_off(1477) > [_post_lcd_off:1477] raise homescreen after 20 sec. home_visible[0]
+05-31 17:39:25.140+0900 E/ALARM_MANAGER(  697): alarm-lib.c: alarmmgr_add_alarm_withcb(1162) > trigger_at_time(20), start(31-5-2016, 17:39:45), repeat(1), interval(20), type(-1073741822)
+05-31 17:39:25.140+0900 I/APP_CORE( 3513): appcore-efl.c: __do_app(429) > [APP 3513] Event: PAUSE State: RUNNING
+05-31 17:39:25.140+0900 I/CAPI_APPFW_APPLICATION( 3513): app_main.c: _ui_app_appcore_pause(611) > app_appcore_pause
+05-31 17:39:25.145+0900 I/SHealth_Common( 1102): SystemUtil.cpp: OnDeviceStatusChanged(679) > [1;35mlcdState:3[0;m
+05-31 17:39:25.145+0900 I/SHealth_Service( 1102): SHealthServiceController.cpp: OnSystemUtilLcdStateChanged(676) > [1;35m ###[0;m
+05-31 17:39:25.145+0900 W/ALARM_MANAGER(  494): alarm-manager.c: __check_privilege_by_cookie(1525) > Try to read procfs status
+05-31 17:39:25.145+0900 W/ALARM_MANAGER(  494): alarm-manager.c: __check_privilege_by_cookie(1529) > Read procfs status successfully
+05-31 17:39:25.205+0900 E/ALARM_MANAGER(  494): alarm-manager-schedule.c: _alarm_next_duetime(504) > alarm_id: 834537451, next duetime: 1464683985
+05-31 17:39:25.205+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __alarm_add_to_list(377) > [alarm-server]: After add alarm_id(834537451)
+05-31 17:39:25.205+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __alarm_create(938) > [alarm-server]:alarm_context.c_due_time(1464706800), due_time(1464683985)
+05-31 17:39:25.205+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __rtc_set(229) > [alarm-server]ALARM_CLEAR ioctl is successfully done.
+05-31 17:39:25.205+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __rtc_set(236) > Setted RTC Alarm date/time is 31-5-2016, 08:39:45 (UTC).
+05-31 17:39:25.205+0900 E/ALARM_MANAGER(  494): alarm-manager.c: __rtc_set(251) > [alarm-server]RTC ALARM_SET ioctl is successfully done.
+05-31 17:39:25.215+0900 W/MUSIC_CONTROL_SERVICE( 1056): music-control-consumer-control.c: _music_control_consumer_display_state_changed_cb(471) > [36m[TID:1056]   [MUSIC_PLAYER_EVENT]DISPLAY_STATE_SCREEN_OFF[0m
+05-31 17:39:25.220+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: OnReceiveDisplayChanged(977) > [0;32mINFO: LCDOff receive data : 1075153676[0;m
+05-31 17:39:25.220+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: OnReceiveDisplayChanged(978) > [0;32mINFO: WakeupServiceStop[0;m
+05-31 17:39:25.220+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: WakeupServiceStop(406) > [0;32mINFO: SEAMLESS WAKEUP STOP REQUEST[0;m
+05-31 17:39:25.225+0900 I/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_product.c: sound_manager_svoice_wakeup_enable(1216) > [SVOICE] Wake up Disable start
+05-31 17:39:25.315+0900 I/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_product.c: sound_manager_svoice_wakeup_enable(1219) > [SVOICE] Wake up Disable end. (ret: 0x0)
+05-31 17:39:25.315+0900 W/TIZEN_N_SOUND_MANAGER( 1080): sound_manager_private.c: __convert_sound_manager_error_code(96) > [sound_manager_svoice_wakeup_enable] ERROR_NONE (0x00000000)
+05-31 17:39:25.315+0900 W/WAKEUP-SERVICE( 1080): WakeupService.cpp: WakeupSetSeamlessValue(369) > [0;32mINFO: WAKEUP SET : 0[0;m
+05-31 17:39:25.315+0900 I/HIGEAR  ( 1080): WakeupService.cpp: WakeupServiceStop(410) > [svoice:Application:WakeupServiceStop:IN]
+05-31 17:39:25.320+0900 I/watchface-viewer(  752): viewer-data-provider.cpp: AddPendingChanges(1088) > added [37] to pending list
+05-31 17:39:25.320+0900 I/watchface-viewer(  752): viewer-data-provider.cpp: AddPendingChanges(1088) > added [39] to pending list
+05-31 17:39:25.325+0900 I/RESOURCED(  499): heart-battery.c: heart_battery_add_capacity(1168) > [heart_battery_add_capacity,1168] 48 -> 47 1464683965 60
+05-31 17:39:25.325+0900 I/RESOURCED(  499): heart-battery.c: heart_battery_calculate_prediction(1137) > [heart_battery_calculate_prediction,1137] TimeToEmpty: 47 683 383 535
+05-31 17:39:25.325+0900 I/RESOURCED(  499): heart-battery.c: heart_battery_calculate_prediction(1137) > [heart_battery_calculate_prediction,1137] TimeToEmpty: 47 0 0 918
+05-31 17:39:25.325+0900 I/RESOURCED(  499): heart-battery.c: heart_battery_calculate_prediction(1137) > [heart_battery_calculate_prediction,1137] TimeToEmpty: 47 942 382 738
+05-31 17:39:25.325+0900 I/RESOURCED(  499): heart-battery.c: heart_battery_calculate_prediction(1137) > [heart_battery_calculate_prediction,1137] TimeToEmpty: 47 186 5 146
+05-31 17:39:25.325+0900 I/RESOURCED(  499): heart-battery.c: heart_battery_calculate_prediction(1137) > [heart_battery_calculate_prediction,1137] TimeToEmpty: 47 364 30 285
+05-31 17:39:25.990+0900 I/aa      ( 3513): db hi = 0
+05-31 17:39:26.995+0900 I/aa      ( 3513): res = -26542062
+05-31 17:39:26.995+0900 E/TIZEN_N_RECORDER( 3513): recorder.c: recorder_get_audio_level(925) > [recorder_get_audio_level]RECORDER_ERROR_INVALID_STATE(0xfe6b0012) 
+05-31 17:39:27.000+0900 I/aa      ( 3513): res = -26542062
+05-31 17:39:27.005+0900 I/aa      ( 3513): db hi = -16.201134
+05-31 17:39:27.045+0900 I/HAP     ( 3513): Updating UI with data 주의 하세요!
+05-31 17:39:27.770+0900 W/AUL_AMD (  498): amd_request.c: __request_handler(646) > __request_handler: 14
+05-31 17:39:27.840+0900 W/AUL_AMD (  498): amd_request.c: __send_result_to_client(83) > __send_result_to_client, pid: 3513
+05-31 17:39:30.125+0900 I/aa      ( 3513): db hi = 0
+05-31 17:39:30.185+0900 I/APP_CORE( 3513): appcore-efl.c: __do_app(429) > [APP 3513] Event: MEM_FLUSH State: PAUSED
+05-31 17:39:30.725+0900 E/WMS     (  496): wms_event_handler.c: _wms_event_handler_cb_wearonoff_monitor(20197) > wear_monitor_status update[0] = 1 -> 2
+05-31 17:39:30.725+0900 E/WMS     (  496): wms_msg_broker.c: wms_msg_broker_send(1743) > 
+05-31 17:39:30.725+0900 E/WMS     (  496): ==========
+05-31 17:39:30.725+0900 E/WMS     (  496): ##WMS SEND : mgr_gear_wear_onoff_req
+05-31 17:39:30.725+0900 E/WMS     (  496): ==========
+05-31 17:39:30.725+0900 E/WMS     (  496): wms_msg_broker.c: wms_msg_broker_send(1759) > Data size: 52 MAX Buffer Size: 61440
+05-31 17:39:31.130+0900 I/aa      ( 3513): res = -26542062
+05-31 17:39:31.130+0900 E/TIZEN_N_RECORDER( 3513): recorder.c: recorder_get_audio_level(925) > [recorder_get_audio_level]RECORDER_ERROR_INVALID_STATE(0xfe6b0012) 
+05-31 17:39:31.140+0900 I/aa      ( 3513): res = -26542062
+05-31 17:39:31.145+0900 I/aa      ( 3513): db hi = -16.201134
+05-31 17:39:31.200+0900 I/HAP     ( 3513): Updating UI with data 주의 하세요!
+05-31 17:39:31.755+0900 W/CRASH_MANAGER( 3626): worker.c: worker_job(1199) > 1103513686170146468397
