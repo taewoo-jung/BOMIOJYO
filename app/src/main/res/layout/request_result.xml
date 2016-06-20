@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/REQUEST_BTN"
+        android:text="Reqeust result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <ScrollView
+        android:layout_below="@+id/REQUEST_BTN"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/RESULT_VIEW"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <Button
+                android:text="View Map"
+                android:id="@+id/VIEW_MAP_BTN"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

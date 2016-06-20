@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/CURRENT_LOCATION"
+        android:text="현재위치(GPS기반)"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/START_POINT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="출발지를 입력하세요"
+            android:layout_weight="8"/>
+        <Button
+            android:id="@+id/START_POINT_BTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="입 력"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SET_DEST"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/DEST_POINT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="목적지를 입력하세요"
+            android:layout_weight="8"/>
+        <Button
+            android:id="@+id/DEST_POINT_BTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="입 력"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/LOCATION_LIST"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/MAP_LAYOUT_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/SEARCH_BTN_LAYOUT"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_below="@+id/SET_DEST">
+
+        <Button
+            android:id="@+id/ROUTE_SEARCH_BTN_URI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="경로검색(URI)"
+            android:onClick="onClick"
+            android:layout_weight="10"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
