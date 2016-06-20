@@ -1,0 +1,30 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+ninja_required_version = 1.5
+include rules.ninja
+include target.ninja
+
+shell = cmd /c
+bashshell = C:\tizen-sdk\tools\mingw\msys\1.0\bin\sh.exe
+builddir = C:\Users\wonhyuk\workspace\HAP\Debug
+sareportdir = C:\Users\wonhyuk\workspace\HAP\SA_Report
+sa_checkers = alpha,cplusplus,core,deadcode,resourceLeak,security,unix
+
+subninja ../Debug/src/subdir.ninja
+subninja ../Debug/src/managed/src/view/subdir.ninja
+subninja ../Debug/src/managed/src/utils/subdir.ninja
+subninja ../Debug/src/managed/src/manager/subdir.ninja
+subninja ../Debug/src/managed/src/connection/subdir.ninja
+
+targettool = clang++.exe
+targetflags =  -L"C:/Users/wonhyuk/workspace/HAP/lib" -target arm-tizen-linux-gnueabi -gcc-toolchain "C:/tizen-sdk/tools/smart-build-interface/../arm-linux-gnueabi-gcc-4.6/" -ccc-gcc-name arm-linux-gnueabi-g++ -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mtune=cortex-a8 -Xlinker --as-needed  -pie -lpthread -Xlinker -rpath="/home/developer/sdk_tools/lib" --sysroot="C:/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-device.core" -Xlinker --version-script="C:/Users/wonhyuk/workspace/HAP/.exportMap" -L"C:/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-device.core/usr/lib" -L"C:/tizen-sdk/tools/smart-build-interface/../../platforms/tizen-2.3.1/wearable/rootstraps/wearable-2.3.1-device.core/../wearable-2.3.1-device.core/usr/lib" -lBrokenLocale -lanl -lappcore-agent -lappcore-watch -lbadge -lbase-utils-i18n -lbundle -lcairo -lcapi-appfw-alarm -lcapi-appfw-app-common -lcapi-appfw-app-control -lcapi-appfw-application -lcapi-appfw-app-manager -lcapi-appfw-package-manager -lcapi-appfw-preference -lcapi-appfw-widget-application -lcapi-base-common -lcapi-content-media-content -lcapi-content-mime-type -lcapi-data-control -lcapi-location-manager -lcapi-media-audio-io -lcapi-media-camera -lcapi-media-codec -lcapi-media-image-util -lcapi-media-metadata-extractor -lcapi-media-player -lcapi-media-radio -lcapi-media-recorder -lcapi-media-sound-manager -lcapi-media-tone-player -lcapi-media-tool -lcapi-media-wav-player -lcapi-message-port -lcapi-messaging-messages -lcapi-network-bluetooth -lcapi-network-connection -lcapi-network-nfc -lcapi-network-smartcard -lcapi-network-wifi -lcapi-system-device -lcapi-system-info -lcapi-system-media-key -lcapi-system-runtime-info -lcapi-system-sensor -lcapi-system-system-settings -lcapi-telephony -lcapi-ui-efl-util -lcidn -lcore-context-manager -lcrypto -lcrypt -lc -lcurl -ldlog -ldl -lecore_con -lecore_evas -lecore_fb -lecore_file -lecore_imf_evas -lecore_imf -lecore_input_evas -lecore_input -lecore_ipc -lecore -lecore_x -ledbus -ledje -leet -lefl-extension -lefreet_mime -lefreet -lefreet_trash -leina -leio -lelementary -lembryo -lethumb_client -lethumb -levas -lewebkit2 -lexif -lfontconfig -lfreetype -lgio-2.0 -lglib-2.0 -lgmodule-2.0 -lgobject-2.0 -lgthread-2.0 -ljson-glib-1.0 -lkey-manager-client -lminizip -lm -lnotification -lnsl -lnss_compat -lnss_dns -lnss_files -lnss_hesiod -lnss_nisplus -lnss_nis -loauth -lopenal -lprivilege-info -lpthread -lpush -lresolv -lrt -lsqlite3 -lssl -lstorage -lstt -ltbm -lthread_db -ltts -lutil -lwidget_service -lwidget_viewer_evas -lxml2 -lz -lsap_client -lsap-client-stub-api -Xlinker -rpath="/opt/usr/apps/org.example.hap/lib" -Werror-implicit-function-declaration
+
+build hap: build_target src/app_main.o src/finder.o src/hap.o src/sap.o src/tts_app.o src/managed/src/view/uib_view1_view.o src/managed/src/view/uib_views.o src/managed/src/utils/uib_util.o src/managed/src/manager/uib_app_manager.o src/managed/src/manager/uib_view_manager.o src/managed/src/connection/uib_view1_connection.o 
+build ast: phony src/app_main.o.ast src/finder.o.ast src/hap.o.ast src/sap.o.ast src/tts_app.o.ast src/managed/src/view/uib_view1_view.o.ast src/managed/src/view/uib_views.o.ast src/managed/src/utils/uib_util.o.ast src/managed/src/manager/uib_app_manager.o.ast src/managed/src/manager/uib_view_manager.o.ast src/managed/src/connection/uib_view1_connection.o.ast
+build fn: phony src/app_main.o.fn src/finder.o.fn src/hap.o.fn src/sap.o.fn src/tts_app.o.fn src/managed/src/view/uib_view1_view.o.fn src/managed/src/view/uib_views.o.fn src/managed/src/utils/uib_util.o.fn src/managed/src/manager/uib_app_manager.o.fn src/managed/src/manager/uib_view_manager.o.fn src/managed/src/connection/uib_view1_connection.o.fn
+build extfn: ext_fn src/app_main.o.fn src/finder.o.fn src/hap.o.fn src/sap.o.fn src/tts_app.o.fn src/managed/src/view/uib_view1_view.o.fn src/managed/src/view/uib_views.o.fn src/managed/src/utils/uib_util.o.fn src/managed/src/manager/uib_app_manager.o.fn src/managed/src/manager/uib_view_manager.o.fn src/managed/src/connection/uib_view1_connection.o.fn | clean_sa ast
+build sa: phony src/app_main.o.sa src/finder.o.sa src/hap.o.sa src/sap.o.sa src/tts_app.o.sa src/managed/src/view/uib_view1_view.o.sa src/managed/src/view/uib_views.o.sa src/managed/src/utils/uib_util.o.sa src/managed/src/manager/uib_app_manager.o.sa src/managed/src/manager/uib_view_manager.o.sa src/managed/src/connection/uib_view1_connection.o.sa
+build apichecker: unusedapi_rule src/app_main.o.txt src/finder.o.txt src/hap.o.txt src/sap.o.txt src/tts_app.o.txt src/managed/src/view/uib_view1_view.o.txt src/managed/src/view/uib_views.o.txt src/managed/src/utils/uib_util.o.txt src/managed/src/manager/uib_app_manager.o.txt src/managed/src/manager/uib_view_manager.o.txt src/managed/src/connection/uib_view1_connection.o.txt
+

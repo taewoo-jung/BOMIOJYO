@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="org.example.hap" version="1.0.0">
+    <profile name="wearable"/>
+    <widget-application appid="org.example.hap" exec="hap" main="true" update-period="0">
+        <label>hap</label>
+        <icon>hap.png</icon>
+        <support-size preview="screenshot.png">2x2</support-size>
+        <metadata key="accessory-services-location" value="/res/xml/accessoryservices.xml"/>
+        <metadata key="launch-on-attach" value="false"/>
+    </widget-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/haptic</privilege>
+        <privilege>http://developer.samsung.com/tizen/privilege/accessoryprotocol</privilege>
+        <privilege>http://tizen.org/privilege/recorder</privilege>
+    </privileges>
+    <feature name="http://tizen.org/feature/screen.size.normal">true</feature>
+    <feature name="http://tizen.org/feature/screen.shape.circle">true</feature>
+</manifest>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document>
+	<mscreen>
+		<configuration id="config1" name="common" type="common"
+			orientation="portrait" device="CIRCLE_360x360" />
+	</mscreen>
+	<views startup="view1">
+		<view id="view1" indicator="true" type="view">
+			<grid align_h="fill" vsize_w="1000" align_v="fill" visible="true"
+				weight_v="1" id="grid1" weight_h="1" vsize_h="1000">
+				<image resizable_up="true" resizable_down="true" align_v="fill"
+					visible="true" weight_v="1" pack_h="423" weight_h="1" align_h="fill"
+					aspect_fixed="false" pack_w="642" pack_x="200" pack_y="136"
+					no_scale="false" id="image1" fill_outside="false" src="down.png"></image>
+				<label align_v="0.5" visible="true" weight_v="1" line_wrap="none"
+					pack_h="175" weight_h="1" ellipsis="false" align_h="1" wrap_width="0"
+					pack_w="667" disable="false" pack_x="187" pack_y="564" id="label1"
+					text=""></label>
+				<button align_v="fill" visible="true" weight_v="1" pack_h="364"
+					weight_h="1" align_h="fill" pack_w="364" disable="false" pack_x="322"
+					pack_y="702" style="bottom" id="On" text="On"></button>
+			</grid>
+		</view>
+	</views>
+</document>
